@@ -1,0 +1,130 @@
+.about-negrita {
+  font-weight: 750;
+}
+
+.section-white {
+  background: #fff;
+  padding: 70px 0;
+}
+
+.team-item {
+  /* background: #f4f5f6; */
+  background-color: #f9f4ef;
+  text-align: center;
+  margin: 20px 0;
+  padding: 50px 20px 40px 20px;
+  border-radius: 8px 8px;
+  -webkit-transition: all 0.25s ease-in-out;
+  -moz-transition: all 0.25s ease-in-out;
+  -ms-transition: all 0.25s ease-in-out;
+  -o-transition: all 0.25s ease-in-out;
+  transition: all 0.25s ease-in-out;
+  min-height: 570px;
+  max-height: 570px;
+}
+
+.team-item:hover {
+  /* background-color: #5ace33; */
+  background-color: #eaddcf;
+  color: #cb52a3;
+}
+
+.team-item h3 {
+  margin: 20px 0 1px 0 !important;
+  color: #454545;
+  font-size: 18px;
+  font-weight: 700;
+  text-transform: uppercase;
+  transition: all 0.25s ease-in-out;
+  -moz-transition: all 0.25s ease-in-out;
+  -webkit-transition: all 0.25s ease-in-out;
+}
+
+.section-subtitle {
+  white-space: pre-line;
+}
+
+.team-item:hover h3 {
+  /* color: #ddd; */
+  color: #cb52a3;
+}
+
+.team-info {
+  display: block;
+  margin-bottom: 0;
+}
+
+.team-info p {
+  color: black;
+  font-style: italic;
+  min-height: 30px;
+  max-height: 30px;
+}
+
+.team-info::after {
+  background: #008aff;
+  background: -webkit-linear-gradient(135deg, #6b02ff 0%, #985bef 100%);
+  background: -o-linear-gradient(bottom right, #6b02ff, #985bef);
+  background: -moz-linear-gradient(bottom right, #008aff, #1ad2fd);
+  background: linear-gradient(135deg, #6b02ff 0%, #985bef 100%);
+  display: inline-block;
+  vertical-align: middle;
+  content: '';
+  width: 50px;
+  height: 3px;
+}
+
+.team-img {
+  max-width: 140px;
+  padding: 6px 6px;
+  background-color: #dedede;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  min-height: 160px;
+  max-height: 160px;
+  min-width: 140px;
+  max-width: 140px;
+  object-fit: cover;
+}
+
+ul.team-icon {
+  margin-top: 1.6rem;
+  min-height: 70px;
+  max-height: 70px;
+}
+
+ul.team-icon li {
+  display: inline-block;
+  margin: 0 3px;
+  -webkit-transition: all 0.25s ease-in-out;
+  -moz-transition: all 0.25s ease-in-out;
+  -ms-transition: all 0.25s ease-in-out;
+  -o-transition: all 0.25s ease-in-out;
+  transition: all 0.25s ease-in-out;
+}
+
+ul.team-icon li a.gitHub {
+  color: black;
+}
+
+ul.team-icon li a.youTube {
+  color: red;
+}
+
+ul.team-icon li a.twitter {
+  color: #1c9cea;
+}
+
+ul.team-icon li a.facebook {
+  color: #4267b2;
+}
+
+.team-icon li a:hover {
+  color: #dedede;
+  -webkit-transition: all 0.25s ease-in-out;
+  -moz-transition: all 0.25s ease-in-out;
+  -ms-transition: all 0.25s ease-in-out;
+  -o-transition: all 0.25s ease-in-out;
+  transition: all 0.25s ease-in-out;
+}

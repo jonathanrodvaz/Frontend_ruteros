@@ -1,0 +1,55 @@
+.developers-container {
+  padding-top: 1.5rem;
+  min-height: 70vh;
+}
+
+.developerList-paginate-and-devs-list-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+}
+
+.developersList-developers-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 1.4rem;
+}
+
+.developerList-paginate {
+  display: flex;
+  justify-content: center;
+  font-size: 20px;
+  font-weight: 900;
+  align-items: center;
+  min-width: 20rem;
+  height: 3rem;
+  background-color: transparent;
+  list-style-type: none;
+  /* border: 1px solid red;   */
+  gap: 2rem;
+  cursor: pointer;
+}
+
+.developerList-paginate-active-element {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 1rem;
+  height: 1rem;
+  border: 1px solid #61d16d;
+  padding: 1rem;
+  border-radius: 50%;
+}
+
+@media screen and (max-width: 721px) {
+  .developerList-paginate {
+    font-size: 16px;
+    gap: 1rem;
+    padding: 0;
+    margin: 0;
+  }
+}

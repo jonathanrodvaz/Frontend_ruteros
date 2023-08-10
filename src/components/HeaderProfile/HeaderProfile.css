@@ -1,0 +1,35 @@
+.user-profile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 2rem;
+}
+
+.user-image img {
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.user-info {
+  display: flex;
+  justify-content: space-around;
+  width: 36%;
+  margin: 1rem;
+}
+
+.follower-container {
+  border-radius: 10px;
+}
+
+@media only screen and (max-width: 880px) {
+  .user-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    margin-top: 12px;
+    gap: 21px;
+  }
+}

@@ -1,0 +1,233 @@
+.profile-icon {
+  margin-right: 10px;
+  height: 35px;
+  width: 35px;
+  object-fit: cover;
+}
+
+.containerNavProfile {
+  width: 80vw;
+  height: 18vh;
+  gap: 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 20px;
+  border: 0px solid blue;
+}
+
+.containerNavProfile-perfil-contraseña-email-experiencia {
+  display: flex;
+  justify-content: center;
+  width: 1200px;
+  gap: 18px;
+}
+
+.containerNavProfile-habiliddes-rutas-borrar {
+  display: flex;
+  justify-content: center;
+  width: 1200px;
+  gap: 18px;
+}
+
+.fluidContainerProfile {
+  width: 1200px;
+  height: 550px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #8c7851;
+  border-radius: 12px;
+  box-shadow: 2px 2px 4px rgba(3, 3, 3, 0.7);
+  border: 0px solid red;
+  margin-bottom: 50px;
+}
+
+.mainContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+  border: 0px solid red;
+}
+
+.btn-profile.active {
+  background-color: var(--btn-bg-color);
+  color: white;
+  font-weight: 700;
+}
+
+.btn-profile-first {
+  border-top-right-radius: 12px;
+  border-top-left-radius: 12px;
+}
+
+.btn-profile-last {
+  border-bottom-right-radius: 12px;
+  border-bottom-left-radius: 12px;
+}
+
+.btn-profile {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  cursor: pointer;
+  height: 54px;
+  font-size: 18px;
+  /* background-color: var(--mainColor);
+  color: var(--textColor); */
+  border-color: transparent;
+  background-color: #eaddcf;
+  border-radius: 12px;
+  box-shadow: 2px 2px 4px rgba(3, 3, 3, 0.5);
+}
+
+.btn-profile:hover {
+  box-shadow: 3px 3px 4px var(--btn-bg-color, 0.9);
+}
+
+.btn-profile.active:hover {
+  color: white;
+  font-weight: 700;
+}
+
+@media only screen and (max-width: 880px) {
+  .btn-profile {
+    width: 130px;
+    background-color: var(--mainColor);
+    color: var(--textColor);
+    cursor: pointer;
+    border-radius: 5px;
+    height: 30px;
+    font-weight: bold;
+  }
+
+  .containerNavProfile {
+    height: 12vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    margin-top: 5vh;
+    gap: 8px;
+  }
+
+  .mainContainer {
+    display: flex;
+
+    margin-top: 30px;
+    height: 900px;
+  }
+
+  /* No tocar, rompe las tecnologías*/
+  .fluidContainerProfile {
+    margin-left: 0px;
+    padding: 0px 0px 0px 0px;
+    margin: 36px 0px 20px 0px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    /* height: 100%; */
+    height: 60vh;
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 570px) {
+  .fluidContainerProfile {
+    box-shadow: 2px 2px 4px rgba(3, 3, 3, 0);
+    padding: 0;
+    margin: 0;
+    gap: 0;
+  }
+}
+
+/*  -------------------------------------------------------------------*/
+
+#sidebar {
+  position: fixed;
+  top: 20%;
+  left: 0px;
+  /* background-color: white; */
+  background-color: #eaddcf;
+  width: 60px;
+  transition: all;
+
+  border-bottom-right-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+#sidebar:hover {
+  -webkit-box-shadow: 10px 4px 34px -1px rgba(0, 0, 0, 0.95);
+  -moz-box-shadow: 10px 4px 34px -1px rgba(0, 0, 0, 0.95);
+  box-shadow: 10px 4px 34px -1px rgba(0, 0, 0, 0.95);
+}
+
+#sidebar div {
+  list-style: none;
+  display: block;
+  color: black;
+  overflow: hidden;
+  padding: 20px;
+  transition: all;
+  transition-duration: 0.8s;
+}
+
+#sidebar .cambiar-contrasena:before {
+  content: url(https://res.cloudinary.com/dxpdntpqm/image/upload/v1690889504/UserFTProyect/profileIcons/reset-password-small_tg0mls.png);
+}
+
+#sidebar .perfil-responsive:before {
+  content: url(https://res.cloudinary.com/dxpdntpqm/image/upload/v1690879460/UserFTProyect/profileIcons/profile_sjvwwy.png);
+}
+
+#sidebar .cambiar-email:before {
+  content: url('https://res.cloudinary.com/dxpdntpqm/image/upload/v1690888186/UserFTProyect/profileIcons/email-small_zeqdba.png');
+}
+
+#sidebar .profile-experience:before {
+  content: url('https://res.cloudinary.com/dxpdntpqm/image/upload/v1690889229/UserFTProyect/profileIcons/Rutero-small_rryrms.png');
+}
+
+#sidebar .citys-responsive:before {
+  content: url('https://res.cloudinary.com/dxpdntpqm/image/upload/v1690581972/UserFTProyect/profileIcons/city_Route_uqloai.png');
+}
+
+#sidebar .mountainRoutes-responsive:before {
+  content: url(https://res.cloudinary.com/dxpdntpqm/image/upload/v1690889618/UserFTProyect/profileIcons/mountain-route-small_eztdvr.png);
+}
+
+#sidebar .habilities-responsive:before {
+  content: url('https://res.cloudinary.com/dxpdntpqm/image/upload/v1690888350/UserFTProyect/profileIcons/logical-thinking-small_ufudxq.png');
+}
+
+#sidebar .borrar-perfil:before {
+  content: url(https://res.cloudinary.com/dxpdntpqm/image/upload/v1690881933/UserFTProyect/profileIcons/delete-user-small_gbzxkz.png);
+}
+
+#sidebar div span {
+  margin-left: 30px;
+  color: black;
+  font-size: 20px;
+  display: none;
+}
+
+#sidebar div:hover {
+  /* background-color: #c9c9c9; */
+  background-color: var(--btn-bg-color);
+}
+
+#sidebar:hover {
+  width: 250px;
+
+  /* && div span {
+    display: inline;
+  } */
+}
+
+#sidebar:hover div > span {
+  display: inline;
+}

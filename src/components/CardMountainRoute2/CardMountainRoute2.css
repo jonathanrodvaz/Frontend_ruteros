@@ -1,0 +1,238 @@
+.mountainRoute-Info {
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: first baseline;
+  min-height: 230px;
+  max-height: 230px;
+  border: 1px solid #e3e4e5;
+  border-radius: 0.9rem;
+  background-color: #fffffe;
+  color: black;
+  transition: transform 0.2s;
+  margin-bottom: 25px;
+  box-shadow: 2px 2px 4px rgba(3, 3, 3, 0.7);
+  border: 0px solid red;
+}
+
+.mountainRoute-Info:hover {
+  background-color: #b3c8ec;
+  transition: transform 0.2s;
+  animation: changeColor 2s ease infinite;
+}
+
+@keyframes changeColor {
+  0% {
+    background-color: #8c7851;
+  }
+
+  50% {
+    background-color: #eaddcf;
+  }
+
+  100% {
+    background-color: #fffffe;
+  }
+}
+
+.mountainRoute-card-btn {
+  border: none;
+  background-color: transparent;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: first baseline;
+  border: 0px solid red;
+  z-index: 1;
+}
+
+.mountainRoute-Info-img {
+  width: 210px;
+  min-height: 140px;
+  max-height: 140px;
+  object-fit: cover;
+  border-radius: 0.7rem;
+  cursor: pointer;
+  box-shadow: 2px 2px 4px rgba(70, 189, 149, 0.7);
+  transition: transform 0.2s;
+}
+
+.mountainRoute-Info-img-valoraciones {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 30px;
+  font-size: 12px;
+  gap: 5px;
+}
+
+.mountainRoute-Info-toda_la_carta {
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+}
+
+.mountainRoute-Info-routeName-descriptionGeneral {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: left;
+  gap: 12px;
+}
+
+.mountainRoute-Info-name {
+  color: #f70759;
+  font-weight: 750;
+}
+
+.mountainRoute_ToggleBtnFollowMontainRoute {
+  /* position: relative; */
+  /* right: 0px; */
+  /* position: absolute; */
+  /* margin-top: -2px;
+    margin-right: 100px; */
+  border: 0px solid rgb(124, 187, 180);
+  border-radius: 50px;
+  padding: 12px;
+  border: 0px solid red;
+  z-index: 5;
+}
+
+.mountainRoute-Info-separar-info-general-routeState {
+  display: flex;
+  justify-content: space-between;
+  gap: 21px;
+}
+
+.mountainRoute-Info-separar-info-general {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 21px;
+}
+
+.mountainRoute-Info-separar-routeState {
+  margin-right: 16px;
+  font-weight: 750;
+}
+
+.mountainRoute-Info-descriptionGeneral {
+  width: 750px;
+  color: #676969;
+  font-weight: 500;
+  max-width: 70ch;
+}
+
+.mountainRoute-Info-descriptionGeneral {
+  font-size: 16px;
+  /* Tamaño de fuente para la descripción general */
+  /* Otras propiedades de estilo según tus necesidades */
+  text-overflow: ellipsis;
+  /* Muestra los puntos suspensivos al final del texto */
+  overflow: hidden;
+  /* Asegura que el contenido que excede el contenedor no sea visible */
+  display: -webkit-box;
+  /* Establece el tipo de display necesario para el truco de las tres líneas */
+  -webkit-line-clamp: 3;
+  /* Limita el texto a tres líneas */
+  -webkit-box-orient: vertical;
+  /* Establece el flujo del texto en vertical */
+}
+
+.mountainRoute-Info-Ubicado {
+  font-size: 12px;
+  font-weight: 200;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cardmountainRoute2-GiPathDistance {
+  font-size: 20px;
+  margin: 0 3px 3px 0;
+  color: rgb(234, 11, 11);
+}
+
+.mountainRoute-BiTime {
+  font-size: 16px;
+  margin: 0 3px 3px 0;
+  color: rgb(10, 163, 23);
+}
+
+.mountainRoute-FaMapMarker {
+  font-size: 16px;
+  margin: 0 0 3px 0;
+  color: #2880ca;
+}
+
+.mountainRoute-MdReportProblem {
+  font-size: 19px;
+  margin: 0 3px 3px 0;
+  color: rgb(229, 145, 10);
+}
+
+@media screen and (max-width: 721px) {
+  .mountainRoute_ToggleBtnFollowMontainRoute {
+    margin-top: -512px;
+    margin-left: 320px;
+  }
+
+  .mountainRoute-card-btn {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .mountainRoute-card-btn img {
+    width: 270px;
+    object-fit: cover;
+  }
+
+  .mountainRoute-Info-img-valoraciones {
+    margin-bottom: 0;
+  }
+
+  .mountainRoute-Info-separar-info-general-routeState {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .mountainRoute-Info-separar-info-general {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 0 0 -16px 0;
+  }
+
+  .mountainRoute-Info-distance,
+  .mountainRoute-Info-routeDuration,
+  .mountainRoute-difficulty {
+    margin: 0;
+  }
+
+  .mountainRoute-Info {
+    min-height: 520px;
+    max-height: 520px;
+    width: 370px;
+    z-index: 1;
+  }
+
+  .mountainRoute-Info-descriptionGeneral {
+    width: 300px;
+  }
+
+  .mountainRoute-Info-routeName-descriptionGeneral {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .mountainRoute_ToggleBtnFollowUser {
+    border: 0px solid rgb(124, 187, 180);
+    padding: 1px;
+    border: 0px solid red;
+    z-index: 5;
+  }
+}

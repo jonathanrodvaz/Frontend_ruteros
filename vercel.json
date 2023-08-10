@@ -1,0 +1,28 @@
+{
+  "routes": [
+    { "src": "/", "dest": "/" },
+    { "src": "/ruteros", "dest": "/ruteros" },
+    { "src": "/aboutUs", "dest": "/aboutUs" },
+    { "src": "/citys", "dest": "/citys" },
+    { "src": "/mountainRoutes", "dest": "/mountainRoutes" },
+    { "src": "/ruteroDetails", "dest": "/ruteroDetails" },
+    { "src": "/cityDetails", "dest": "/cityDetails" },
+    { "src": "/mountainRouteDetails2", "dest": "/mountainRouteDetails2" },
+    { "src": "/login", "dest": "/login" },
+    { "src": "/home", "dest": "/home" },
+    { "src": "/createMountainRoute2", "dest": "/createMountainRoute2" },
+    { "src": "/createCities2", "dest": "/createCities2" },
+    { "src": "/register", "dest": "/register" },
+    { "src": "/chat", "dest": "/chat" },
+    { "src": "/profile", "dest": "/profile" },
+    { "src": "/profile/changePassword", "dest": "/profile/changePassword" },
+    { "src": "/profile/changeEmail", "dest": "/profile/changeEmail" },
+    { "src": "/profile/experience", "dest": "/profile/experience" },
+    { "src": "/profile/ProfileMountain", "dest": "/profile/ProfileMountain" },
+    { "src": "/profile/ProfileCity", "dest": "/profile/ProfileCity" },
+    { "src": "/profile/habilities", "dest": "/profile/profile/habilities" },
+    { "src": "/verifyCode", "dest": "/verifyCode" },
+    { "src": "/forgotpassword", "dest": "/forgotpassword" },
+    { "src": "/[^.]+", "dest": "/", "status": 200 }
+  ]
+}

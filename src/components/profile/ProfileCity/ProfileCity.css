@@ -1,0 +1,16 @@
+.profileCity-btns {
+  display: flex;
+  justify-content: space-around;
+  align-items: first baseline;
+  gap: 1rem;
+}
+
+@media only screen and (max-width: 570px) {
+  .profileCity-btns {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+  }
+}

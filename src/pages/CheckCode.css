@@ -1,0 +1,56 @@
+.checkCode-container {
+  margin: 45px auto;
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 500px;
+  background-color: rgb(250, 250, 250);
+  padding: 30px;
+  gap: 25px;
+}
+
+.checkCode-form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.checkCode-title {
+  font-family: var(--font-bold);
+}
+
+.checkCode-input_user {
+  width: 250px;
+  border: none;
+  border-bottom: 2px solid rgb(180, 180, 180);
+  background: transparent;
+  outline: none;
+  margin-top: 10px;
+}
+
+.checkCode-btn-res {
+  border: none;
+  border-radius: 30px;
+  height: 39px;
+  width: 145px;
+  background-color: var(--btn-bg-color);
+  color: white;
+}
+
+.checkCode-btn-res:hover {
+  cursor: pointer;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.checkCode-bottom-text {
+  text-align: center;
+}
+
+@media screen and (max-width: 532px) {
+  .checkCode-container {
+    width: 87%;
+  }
+}

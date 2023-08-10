@@ -1,0 +1,429 @@
+.ruteroDetails-container {
+  width: 80vw;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  border: 0px solid red;
+}
+
+.ruteroDetails-carousel-imgs-container {
+  width: 99vw;
+  min-height: 400px;
+}
+
+.ruteroDetails-ruteroLocationMap-container {
+  width: 80vw;
+  min-height: 400px;
+}
+
+.ruteroDetails-image-and-info-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  font-size: 18px;
+  border: 0px solid red;
+}
+
+.ruteroDetails-image-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.ruteroDetails-info-city-email-following-followers {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  border: 0px solid red;
+  background-color: var(--header-bg-color);
+
+  padding: 0;
+}
+
+.ruteroDetails-image {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.ruteroDetails-name-surname-and-developerType {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.ruteroDetails-name-surname {
+  font-size: 30px;
+  font-weight: 900;
+}
+
+.ruteroDetails-offerState {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.ruteroDetails-read-ratings {
+  /* border: 1px solid red; */
+  margin-bottom: 1rem;
+}
+
+.ruteroDetails-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.ruteroDetails-info-city,
+.ruteroDetails-info-email,
+.ruteroDetails-info-following,
+.ruteroDetails-info-followers {
+  width: 250px;
+  height: 110px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 36px;
+  border: 0.7px solid #e3e4e5;
+  border-radius: 5px;
+  padding: 0 0 0 12px;
+}
+
+.ruteroDetails-info-city:hover,
+.ruteroDetails-info-email:hover,
+.ruteroDetails-info-following:hover,
+.ruteroDetails-info-followers:hover {
+  background-color: var(--btn-bg-color);
+  color: #e3e4e5;
+  font-weight: 700;
+}
+
+.ruteroDetails-info-developer-detail {
+  font-weight: 900;
+
+  /* limit the number of characters to show just 22 */
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 20ch;
+}
+
+.ruteroDetails-developer-rating-writeRating-container {
+  width: 80%;
+  height: 50px;
+  display: flex;
+  /* flex-direction: row; */
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  border: 0.7px solid #e3e4e5;
+  border-radius: 9px;
+  background-color: var(--header-bg-color);
+  margin-top: 1rem;
+}
+
+.ruteroDetails-city-languages-technologies {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  border: 0px solid black;
+  padding: 1rem;
+}
+
+.ruteroDetails-city-languages {
+  width: 450px;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 1rem;
+  border: 0.7px solid #e3e4e5;
+  border-radius: 9px;
+  background-color: var(--header-bg-color);
+  padding: 0 0 0 23px;
+  padding-top: 20px;
+}
+
+.ruteroDetails-technologies {
+  /* width: 763px; */
+  width: 80%;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 1rem;
+  border: 0.7px solid #e3e4e5;
+  border-radius: 9px;
+  background-color: var(--header-bg-color);
+  padding: 0 0 0 23px;
+  padding-top: 20px;
+}
+
+.ruteroDetails-city-jobType > h3 {
+  font-weight: 900;
+  font-size: 25px;
+}
+
+.ruteroDetails-technologies > h3 {
+  font-weight: 900;
+  font-size: 25px;
+}
+
+.ruteroDetails-info-technologies {
+  border: 0px solid red;
+  margin-top: 20px;
+}
+
+.ruteroDetails-info-technology {
+  margin: 20px 0 0 25px;
+  min-height: 150px;
+  border: 0px solid red;
+}
+
+.ruteroDetails-info-technologies > h5 {
+  font-weight: 900;
+  font-size: 18px;
+}
+
+.ruteroDetails-icons-technologies-container {
+  min-height: 100%;
+  min-width: 90%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  border: 0px solid red;
+  gap: 2rem;
+  margin-bottom: 1rem;
+}
+
+.ruteroDetails-city-localization,
+.ruteroDetails-jobType {
+  display: flex;
+  flex-direction: column;
+  margin-top: 63px;
+  border: 0 solid red;
+  font-size: 21px;
+}
+
+.ruteroDetails-info-city-languages {
+  font-size: 16px;
+  padding-left: 23px;
+  border: 0 solid red;
+}
+
+.ruteroDetails-languages {
+  margin-top: 52px;
+}
+
+.ruteroDetails-comments-container {
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  border: 0.7px solid #e3e4e5;
+  border-radius: 9px;
+  background-color: var(--header-bg-color);
+  padding: 0rem;
+}
+
+.ruteroDetails-offer-rating-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  border: 0.7px solid #e3e4e5;
+  border-radius: 9px;
+  background-color: var(--header-bg-color);
+  gap: 1rem;
+  padding: 1rem;
+}
+
+.ruteroDetails-tech-image {
+  max-width: 57px;
+  min-width: 57px;
+  max-height: 57px;
+  min-height: 57px;
+  object-fit: cover;
+  padding: 0.1px;
+  margin: 0;
+}
+
+.ruteroDetails-icon-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.ruteroDetails-horizontal-line {
+  height: 2px;
+  width: 80%;
+  border: 0.7px solid #e3e4e5;
+  border-radius: 9px;
+  background-color: rgb(143, 182, 249);
+  margin: 1rem;
+}
+
+.ruteroDetails-developer-description {
+  text-align: justify;
+  max-width: 1236px;
+  min-width: 80%;
+  border: 0.7px solid #e3e4e5;
+  border-radius: 9px;
+  background-color: var(--header-bg-color);
+  padding: 1.7rem;
+}
+
+.ruteroDetails-private-comments-container {
+  width: 80%;
+  border: 1px solid #e3e4e5;
+  border-radius: 9px;
+  /* background-color: #fcfcfc; */
+  background-color: rgb(143, 182, 249);
+  margin-bottom: 1rem;
+}
+
+.ruteroDetails-public-comments-container {
+  width: 80%;
+  border: 1px solid #e3e4e5;
+  border-radius: 9px;
+  /* background-color: #fcfcfc; */
+  background-color: rgb(143, 182, 249);
+  margin-bottom: 0.4rem;
+}
+
+.ruteroDetails-experiences-container {
+  max-height: 400px;
+  overflow-y: auto;
+  width: 80%;
+  border: 1px solid #e3e4e5;
+  border-radius: 9px;
+  background-color: var(--header-bg-color);
+  /* border: 1px solid red; */
+  margin-top: 0.7rem;
+  padding: 1.7rem;
+}
+
+.ruteroDetails-single-experience-container {
+  border: 2px solid #e3e4e5;
+  border-radius: 9px;
+  background-color: var(--header-bg-color);
+  padding: 1.5rem;
+  margin-top: 1rem;
+  /* border: 1px solid red; */
+}
+
+.ruteroDetails-private-comment-btn {
+  border: none;
+  border-radius: 30px;
+  height: 39px;
+  width: 270px;
+  background-color: var(--btn-bg-color);
+  color: white;
+  font-size: 16px;
+  transition: linear 0.2s;
+  margin-top: 10px;
+}
+
+.ruteroDetails-private-comment-btn:hover {
+  border: 1.5px solid #25d366;
+  background-color: rgb(250, 250, 250);
+  color: #25d366;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+@media (max-width: 600px) {
+  .ruteroDetails-image-and-info-container {
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .ruteroDetails-private-comment-btn {
+    width: 120px;
+  }
+
+  .ruteroDetails-info-city,
+  .ruteroDetails-info-email,
+  .ruteroDetails-info-following,
+  .ruteroDetails-info-followers {
+    gap: 1rem;
+    width: 100%;
+    align-items: center;
+  }
+
+  .ruteroDetails-developer-rating-writeRating-container {
+    width: 100%;
+  }
+
+  .ruteroDetails-city-languages {
+    display: none;
+  }
+
+  .ruteroDetails-technologies {
+    width: 316px;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 0px solid red;
+  }
+
+  .ruteroDetails-icons-technologies-container {
+    max-height: 800px;
+    margin: 0 0 0 0;
+    gap: 12px;
+  }
+
+  .ruteroDetails-city-languages-technologies {
+    padding: 0;
+  }
+
+  .ruteroDetails-technologies > h3 {
+    font-size: 20px;
+    margin-top: 12px;
+  }
+
+  .ruteroDetails-info-technologies > h5 {
+    text-align: center;
+  }
+
+  .ruteroDetails-horizontal-line {
+    width: 100%;
+  }
+
+  .ruteroDetails-developer-description {
+    height: 100%;
+  }
+
+  .ruteroDetails-comments-container {
+    width: 100%;
+  }
+
+  .ruteroDetails-single-experience-container > h3 {
+    font-size: 18px;
+    font-weight: 900;
+  }
+
+  .ruteroDetails-public-comments-container {
+    width: 100%;
+  }
+
+  .ruteroDetails-private-comments-container {
+    width: 100%;
+  }
+}

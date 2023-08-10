@@ -1,0 +1,12 @@
+.btn_profile_general_delete_expe {
+  margin: 12px 0 12px 0;
+  color: rgb(250, 250, 250);
+}
+
+.btn_profile_general_delete_expe:hover {
+  border-bottom: 1.5px solid red;
+  color: red;
+  font-weight: 900;
+  font-size: 18px;
+  cursor: pointer;
+}

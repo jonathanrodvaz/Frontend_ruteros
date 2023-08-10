@@ -1,0 +1,147 @@
+footer {
+  min-height: 20vh;
+  width: 100%;
+  background-color: #eaddcf;
+  padding: 70px;
+  border-top: 2px solid #eaddcf;
+  display: flex;
+  justify-content: space-around;
+}
+
+.footer-information-container {
+  display: flex;
+  flex-direction: column;
+  gap: 35px;
+}
+
+.footer-infotmation {
+  display: flex;
+  flex-direction: column;
+  gap: 17px;
+}
+
+.footer-infotmation-title {
+  color: black;
+  font-size: 25px;
+}
+
+.footer-information-description {
+  font-size: 15px;
+  color: black;
+}
+
+.footer-container-img {
+  display: flex;
+  align-items: flex-end;
+}
+
+.footer-icon-p {
+  background: linear-gradient(to right, #ad24ad, #00aaff);
+  -webkit-background-clip: text;
+  /* Para navegadores basados en WebKit, como Chrome y Safari */
+  -webkit-text-fill-color: transparent;
+  /* Para navegadores basados en WebKit, como Chrome y Safari */
+  background-clip: text;
+  /* Para navegadores que no son WebKit */
+  /* text-fill-color: transparent; */
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-style: italic;
+  font-size: 16px;
+}
+
+.footer-icon {
+  display: flex;
+  margin: 6px;
+  padding: 3px;
+  height: 36px;
+  width: 40px;
+  object-fit: cover;
+}
+
+.footer-container-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  border: 0px solid red;
+}
+
+.footer-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.footer-form > label {
+  display: flex;
+  flex-direction: column;
+  font-size: 12px;
+  /* color: rgb(190, 190, 190); */
+  color: black;
+  border: 0px solid red;
+}
+
+.footer-input-submit {
+  margin-top: 10px;
+}
+
+.footer-input-text {
+  border: none;
+  background-color: transparent;
+  border-bottom: 1.5px solid rgb(110, 110, 110);
+}
+
+.footer-form-title {
+  color: rgb(0, 0, 0);
+  font-size: 25px;
+}
+
+.footer-input-text {
+  width: 220px;
+  color: whitesmoke;
+}
+
+.footer-input-text:focus {
+  outline: none;
+}
+
+.footer-input-submit {
+  border: none;
+  border-radius: 30px;
+  height: 35px;
+  width: 140px;
+  background-color: var(--btn-bg-color);
+  color: white;
+}
+
+.footer-input-submit:hover {
+  cursor: pointer;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+@media screen and (max-width: 1083px) {
+  footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .footer-container-img {
+    display: none;
+  }
+
+  .footer-container-form {
+    margin-top: 30px;
+    text-align: center;
+  }
+
+  .footer-infotmation {
+    text-align: center;
+  }
+
+  .footer-form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}

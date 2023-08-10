@@ -1,0 +1,433 @@
+.cityDetails-container {
+  width: 80vw;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.cityDetails-carousel-imgs-container {
+  width: 99vw;
+  min-height: 400px;
+}
+
+.cityDetails-image-and-info-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 7rem;
+  font-size: 18px;
+  border: 0px solid red;
+}
+
+.cityDetails-image-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.cityDetails-info-localization-distance-difficulty-durartion {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  border: 0px solid red;
+  background-color: #fcfcfc;
+  padding: 0;
+}
+
+.cityDetails-image {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.cityDetails-title-and-state {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.cityDetails-title {
+  font-size: 30px;
+  font-weight: 900;
+}
+
+.cityDetails-cityState {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.cityDetails-read-ratings {
+  /* border: 1px solid red; */
+  margin-bottom: 1rem;
+}
+
+.cityDetails-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.cityDetails-info-routeLocation,
+.cityDetails-info-routeDistance,
+.cityDetails-info-routeDifficulty,
+.cityDetails-info-routeDuration {
+  width: 230px;
+  height: 110px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 20px;
+  border: 0.7px solid #e3e4e5;
+  border-radius: 5px;
+  padding: 0 0 0 12px;
+  background-color: var(--header-bg-color);
+}
+
+.cityDetails-info-routeLocation:hover,
+.cityDetails-info-routeDistance:hover,
+.cityDetails-info-routeDifficulty:hover,
+.cityDetails-info-routeDuration:hover {
+  background-color: var(--btn-bg-color);
+  color: #e3e4e5;
+  font-weight: 700;
+}
+
+.cityDetails-info-city-detail {
+  font-weight: 900;
+
+  /* limit the number of characters to show just 22 */
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 20ch;
+}
+
+.cityDetails-city-rating-writeRating-container {
+  width: 80%;
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  border: 0.7px solid #e3e4e5;
+  border-radius: 9px;
+  background-color: var(--header-bg-color);
+  margin-top: 1rem;
+}
+
+.cityDetails-itemsToCarry-container {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: first baseline;
+  /* align-items: center; */
+  gap: 1rem;
+  border: 0px solid var(--btn-bg-color);
+  border: 0.7px solid #e3e4e5;
+  border-radius: 9px;
+  background-color: var(--header-bg-color);
+  padding: 1rem;
+}
+
+/* .cityDetails-city-jobType-itemsToCarry {
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  border: 1px solid var(--btn-bg-color);
+  background-color: var(--header-bg-color);
+  padding: 1rem;
+} */
+
+.cityDetails-city-jobType {
+  width: 450px;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: flex-start;
+      align-items: flex-start; */
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 1rem;
+  border: 0.7px solid #e3e4e5;
+  border-radius: 9px;
+  background-color: #fcfcfc;
+  padding: 0 0 0 23px;
+  padding-top: 20px;
+}
+
+.cityDetails-itemsToCarry2 {
+  width: 763px;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 1rem;
+  border: 0.7px solid #e3e4e5;
+  border-radius: 9px;
+  /* background-color: #fcfcfc; */
+  background-color: var(--header-bg-color);
+  padding: 0 0 0 23px;
+  padding-top: 20px;
+  border: 0px solid red;
+}
+
+.cityDetails-city-jobType > h3 {
+  font-weight: 900;
+  font-size: 25px;
+}
+
+.cityDetails-itemsToCarry > h3 {
+  font-weight: 900;
+  font-size: 25px;
+}
+
+.cityDetails-info-itemsToCarry {
+  border: 0px solid red;
+  margin-top: 20px;
+}
+
+.cityDetails-info-itemToCarry {
+  margin: 20px 0 0 25px;
+  min-height: 150px;
+  border: 0px solid red;
+}
+
+.cityDetails-info-itemsToCarry > h5 {
+  font-weight: 900;
+  font-size: 18px;
+}
+
+.cityDetails-icons-itemsToCarry-container {
+  min-height: 100%;
+  min-width: 90%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  /* border: 0px solid #e3e4e5; */
+  border: 0px solid red;
+  gap: 2rem;
+  margin-bottom: 1rem;
+}
+
+.cityDetails-city-localization,
+.cityDetails-jobType {
+  display: flex;
+  flex-direction: column;
+  margin-top: 63px;
+  border: 0 solid red;
+  font-size: 21px;
+}
+
+.cityDetails-info-city-jobType {
+  font-size: 16px;
+  padding-left: 23px;
+  border: 0 solid red;
+}
+
+.cityDetails-jobType {
+  margin-top: 52px;
+}
+
+.cityDetails-city-comments {
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  border: 0.7px solid #e3e4e5;
+  border-radius: 9px;
+  background-color: #fcfcfc;
+  padding: 1rem;
+}
+
+.cityDetails-city-rating-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  border: 0.7px solid #e3e4e5;
+  border-radius: 9px;
+  background-color: #fcfcfc;
+  gap: 1rem;
+  padding: 1rem;
+}
+
+.cityDetails-itemToCarry-image {
+  max-width: 57px;
+  min-width: 57px;
+  max-height: 57px;
+  min-height: 57px;
+  object-fit: cover;
+  padding: 0.1px;
+  margin: 0;
+}
+
+.cityDetails-icon-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.cityDetails-horizontal-line {
+  height: 2px;
+  width: 80%;
+  border: 0.7px solid #e3e4e5;
+  border-radius: 9px;
+  background-color: #fcfcfc;
+  margin: 1rem;
+}
+
+.cityDetails-private-comments-container {
+  width: 80%;
+  border: 1px solid #e3e4e5;
+  border-radius: 9px;
+  background-color: var(--header-bg-color);
+  margin-bottom: 1rem;
+}
+
+.cityDetails-private-comment-btn {
+  border: none;
+  border-radius: 30px;
+  height: 39px;
+  width: 270px;
+  background-color: var(--btn-bg-color);
+  color: white;
+  font-size: 16px;
+  transition: linear 0.2s;
+  margin: 1rem;
+}
+
+.cityDetails-private-comment-btn:hover {
+  border: 1.5px solid #25d366;
+  background-color: rgb(250, 250, 250);
+  color: #25d366;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.cityDetails-public-comments-container {
+  width: 80%;
+  border-radius: 9px;
+  background-color: var(--header-bg-color);
+  margin-bottom: 0.4rem;
+  border: 0px solid red;
+}
+
+@media (max-width: 600px) {
+  .cityDetails-image-and-info-container {
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .cityDetails-info-routeLocation,
+  .cityDetails-info-routeDistance,
+  .cityDetails-info-routeDifficulty,
+  .cityDetails-info-routeDuration {
+    gap: 1rem;
+    width: 100%;
+    align-items: center;
+  }
+
+  .cityDetails-city-rating-writeRating-container {
+    width: 100%;
+  }
+
+  .cityDetails-city-jobType {
+    display: none;
+  }
+
+  .cityDetails-itemsToCarry-container {
+    width: 100%;
+  }
+
+  .cityDetails-itemsToCarry {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .cityDetails-icons-itemsToCarry-container {
+    max-height: 800px;
+    margin: 0 0 0 0;
+    gap: 12px;
+    /* overflow-y: scroll; */
+  }
+
+  .cityDetails-city-jobType-itemsToCarry {
+    padding: 0;
+  }
+
+  .cityDetails-itemsToCarry > h3 {
+    font-size: 20px;
+    margin-top: 12px;
+  }
+
+  .cityDetails-info-itemsToCarry > h5 {
+    text-align: center;
+  }
+
+  .cityDetails-horizontal-line {
+    width: 100%;
+  }
+}
+
+.city-GiPathDistance {
+  font-size: 16px;
+  margin: 0 3px 3px 0;
+  color: rgb(234, 11, 11);
+  padding-bottom: 0.3rem;
+}
+
+.city-BiTime {
+  font-size: 16px;
+  margin: 0 3px 3px 0;
+  color: rgb(10, 163, 23);
+  padding-bottom: 0.3rem;
+}
+
+.city-FaMapMarker {
+  font-size: 16px;
+  margin: 0 0 3px 0;
+  color: #2880ca;
+  padding-bottom: 0.3rem;
+}
+
+.textoLocalizacion {
+  padding-top: 0.2rem;
+}
+
+.textoDistancia {
+  padding-top: 0.6rem;
+}
+
+.textoDuracion {
+  padding-top: 0.2rem;
+}
+
+.textoDificultad {
+  padding-top: 0.2rem;
+}
+
+.city-MdReportProblem {
+  font-size: 19px;
+  margin: 0 3px 3px 0;
+  color: rgb(229, 145, 10);
+  padding-bottom: 0.3rem;
+}

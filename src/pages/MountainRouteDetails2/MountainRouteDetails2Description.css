@@ -1,0 +1,25 @@
+.mountainRouteDetails2-mountainRoute-description h3 {
+  font-size: 23px;
+  font-weight: 900;
+  padding: 9px 0;
+}
+
+.mountainRouteDetails2-mountainRoute-description {
+  text-align: justify;
+  max-width: 1236px;
+  border: 0.7px solid #e3e4e5;
+  border-radius: 9px;
+  background-color: var(--header-bg-color);
+  padding: 1.7rem;
+}
+
+.mountainRouteDetails2-mountainRoute-description h5 {
+  font-size: 18px;
+  margin-top: 16px;
+}
+
+@media (max-width: 600px) {
+  .mountainRouteDetails2-mountainRoute-description {
+    height: 100%;
+  }
+}

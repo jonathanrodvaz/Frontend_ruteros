@@ -1,0 +1,12 @@
+.no-border-button {
+  border: none;
+  background: none;
+}
+
+.favorite-icon-pendiente-seguir {
+  color: rgb(35, 206, 49);
+}
+
+.favorite-icon-siguiendo {
+  color: rgb(35, 206, 49);
+}

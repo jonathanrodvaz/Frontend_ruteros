@@ -1,0 +1,15 @@
+.favorite-icon-red {
+  color: rgb(209, 42, 42);
+}
+
+figure:has(button.favorite) {
+  background-color: #e9e7ea;
+}
+
+figure:has(button.noFavorite) {
+  background-color: white;
+}
+
+.favorite-icon {
+  margin: 2px;
+}

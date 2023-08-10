@@ -1,0 +1,648 @@
+[
+  {
+    "name": "Juan",
+    "surname": "García Hernandez",
+    "image": "https://res.cloudinary.com/dhlr7fvd8/image/upload/v1688029760/Profilepictures/Captura26_wnvhjy.png",
+    "description": "Soy un desarrollador apasionado con experiencia en software innovador. Especializado en aplicaciones web y móviles con JavaScript, Python y React Native. Enfocado en la calidad y la satisfacción del usuario, convierto ideas en realidades atractivas y funcionales. ¡Listo para colaborar en proyectos desafiantes y llevarlos al siguiente nivel!",
+    "city": "Murcia",
+    "password": "Juan2023.",
+    "email": "juan2023@gmail.com",
+    "rol": "freelance",
+    "profession": "Software Engineer"
+  },
+  {
+    "name": "Jose Luis",
+    "surname": "Hernandez",
+    "image": "https://res.cloudinary.com/dhlr7fvd8/image/upload/v1688029759/Profilepictures/Captura23_gcit4f.png",
+    "description": "Soy un desarrollador altamente comprometido y apasionado, con amplia experiencia en el desarrollo de software innovador. Me especializo en la creación de aplicaciones web y móviles utilizando JavaScript, Python y React Native. Mi enfoque principal se centra en garantizar la calidad y la máxima satisfacción del usuario, convirtiendo ideas en soluciones prácticas, atractivas y de alto rendimiento. Estoy siempre preparado y entusiasmado por asumir nuevos desafíos y superarlos con éxito.",
+    "city": "Barcelona",
+    "password": "Jose2023.",
+    "email": "josegonzalez2023@gmail.com",
+    "rol": "freelance",
+    "profession": "Software Developer"
+  },
+  {
+    "name": "Ana",
+    "surname": "Martínez Rodríguez",
+    "image": "https://res.cloudinary.com/dhlr7fvd8/image/upload/v1688029760/Profilepictures/Captura24_tfssqq.png",
+    "description": "Soy una desarrolladora con experiencia en software innovador. Especializada en aplicaciones web y móviles utilizando JavaScript, Node y React Native. Mi enfoque se centra en ofrecer calidad y satisfacción al usuario, convirtiendo ideas en soluciones atractivas y funcionales. ¡Lista para colaborar en proyectos desafiantes y llevarlos al siguiente nivel!",
+    "city": "Barcelona",
+    "password": "Ana2023.",
+    "email": "ana2023@gmail.com",
+    "rol": "freelance",
+    "profession": "Web Developer"
+  },
+  {
+    "name": "Sofía",
+    "surname": "González López",
+    "image": "https://res.cloudinary.com/dhlr7fvd8/image/upload/v1688029758/Profilepictures/Captura14_d1ksng.png",
+    "description": "Soy una entusiasta desarrolladora con experiencia en diversos proyectos de software. Mi especialidad radica en aplicaciones móviles y desarrollo web, utilizando tecnologías como Java, Swift y HTML5. Enfocada en ofrecer soluciones intuitivas y de calidad, estoy lista para enfrentar nuevos desafíos y contribuir al éxito de los proyectos.",
+    "city": "Sevilla",
+    "password": "Sofia9876!",
+    "email": "sofiagonzalez2023@gmail.com",
+    "rol": "freelance",
+    "profession": "Mobile App Developer"
+  },
+  {
+    "name": "Javier",
+    "surname": "López Sánchez",
+    "image": "https://res.cloudinary.com/dhlr7fvd8/image/upload/v1688029760/Profilepictures/Captura25_qke2bx.png",
+    "description": "Soy un desarrollador apasionado y creativo, especializado en aplicaciones móviles y desarrollo web. Con experiencia en tecnologías como Python, JavaScript y React, me enfoco en ofrecer soluciones eficientes y atractivas. Como freelancer, estoy disponible para proyectos desafiantes y entregar resultados de calidad.",
+    "city": "Madrid",
+    "password": "Javier123!",
+    "email": "javier.lopez2023@gmail.com",
+    "rol": "freelance",
+    "profession": "Data Scientist"
+  },
+  {
+    "name": "Carlos",
+    "surname": "Sánchez Pérez",
+    "image": "https://res.cloudinary.com/dhlr7fvd8/image/upload/v1688029759/Profilepictures/Captura22_yliomu.png",
+    "description": "Como desarrollador apasionado y autónomo, tengo amplia experiencia en software innovador, especialmente en el desarrollo de aplicaciones web y móviles utilizando JavaScript, Python y React Native. Mi enfoque se centra en brindar soluciones atractivas y funcionales que garanticen la calidad y satisfacción del usuario. Estoy preparado para enfrentar proyectos desafiantes y superar expectativas con éxito.",
+    "city": "Madrid",
+    "password": "Carlos2023!",
+    "email": "carlossanchez@gmail.com",
+    "rol": "freelance",
+    "profession": "Product Manager"
+  },
+  {
+    "name": "Xoán",
+    "surname": "Fernández Rodríguez",
+    "image": "https://res.cloudinary.com/dhlr7fvd8/image/upload/v1688029759/Profilepictures/Captura11_n6d1qg.png",
+    "description": "Soy un especialista en el desarrollo de aplicaciones web y móviles, con experiencia en JavaScript, Python y React Native. Mi principal objetivo es garantizar la calidad y la satisfacción del usuario, transformando ideas en soluciones atractivas y funcionales. Estoy listo para enfrentar desafíos y elevar los proyectos al siguiente nivel.",
+    "city": "A Coruña",
+    "password": "Xoan2023!",
+    "email": "xoanfernandez@gmail.com",
+    "rol": "freelance",
+    "profession": "Cybersecurity Analyst"
+  },
+  {
+    "name": "Ander",
+    "surname": "Etxebarria Zubizarreta",
+    "image": "https://res.cloudinary.com/dhlr7fvd8/image/upload/v1688029759/Profilepictures/Captura20_v75jb7.png",
+    "description": "Como desarrollador experto, cuento con experiencia en la creación de software innovador. Especializado en el desarrollo de aplicaciones web y móviles utilizando JavaScript, Python y React Native. Mi enfoque se centra en ofrecer soluciones de calidad y satisfacción al usuario, convirtiendo ideas en realidades funcionales y atractivas. Listo para superar desafíos y aportar al éxito de los proyectos.",
+    "city": "Bilbao",
+    "password": "Ander2023!",
+    "email": "anderetxebarria@gmail.com",
+    "rol": "freelance",
+    "profession": "Systems Analyst"
+  },
+  {
+    "name": "Julien",
+    "surname": "Lefèvre",
+    "image": "https://res.cloudinary.com/dhlr7fvd8/image/upload/v1688029759/Profilepictures/Captura17_aioja9.png",
+    "description": "Soy un desarrollador entusiasta con experiencia en software innovador. Especializado en aplicaciones web y móviles con JavaScript, Python y React Native. Me enfoco en ofrecer soluciones de calidad y satisfacción al usuario, convirtiendo ideas en realidades funcionales y atractivas. Estoy listo para enfrentar nuevos desafíos y contribuir al éxito de los proyectos.",
+    "city": "París",
+    "password": "Julien2023!",
+    "email": "julienlefevre@gmail.com",
+    "rol": "freelance",
+    "profession": "Network Administrator"
+  },
+  {
+    "name": "Lucía",
+    "surname": "González Santana",
+    "image": "https://res.cloudinary.com/dhlr7fvd8/image/upload/v1688029759/Profilepictures/Captura18_yeb7uz.png",
+    "description": "Hola! Mi nombre es Lucía y soy una desarrolladora experta con experiencia en la creación de software innovador. Especializada en el desarrollo de aplicaciones web y móviles utilizando JavaScript, Python y React Native. Mi enfoque se centra en ofrecer soluciones de calidad y satisfacción al usuario, convirtiendo ideas en realidades funcionales y atractivas. Lista para superar desafíos y aportar al éxito de los proyectos.",
+    "city": "Las Palmas de Gran Canaria",
+    "password": "Lucía2023!",
+    "email": "luciagonzalez@gmail.com",
+    "rol": "freelance",
+    "profession": "Full Stack Developer"
+  },
+  {
+    "name": "Kwame",
+    "surname": "Osei",
+    "image": "https://res.cloudinary.com/dhlr7fvd8/image/upload/v1688029757/Profilepictures/Captura3_b1oc1n.png",
+    "description": "¡Hola! Soy un desarrollador con experiencia en software innovador, especializado en aplicaciones web y móviles utilizando JavaScript, Python y React Native. Mi enfoque es brindar soluciones de calidad y satisfacción al usuario, convirtiendo ideas en realidades funcionales y atractivas. Listo para enfrentar desafíos y contribuir al éxito de los proyectos.",
+    "city": "Acra",
+    "password": "Kwame2023!",
+    "email": "kwameosei@gmail.com",
+    "rol": "freelance",
+    "profession": "Full Stack Developer"
+  },
+  {
+    "name": "Liam",
+    "surname": "Anderson",
+    "image": "https://res.cloudinary.com/dhlr7fvd8/image/upload/v1688029759/Profilepictures/Captura21_vvrx4v.png",
+    "description": "Soy un apasionado desarrollador con experiencia en software innovador. Me especializo en el desarrollo de aplicaciones web y móviles utilizando tecnologías como JavaScript, Python y React Native. Mi enfoque se centra en ofrecer soluciones de alta calidad y satisfacción para los usuarios, convirtiendo ideas en realidades funcionales y atractivas. Estoy listo para enfrentar nuevos desafíos y contribuir al éxito de los proyectos con mi pasión por la programación y mi atención al detalle.",
+    "city": "Londres",
+    "password": "Liam2023!",
+    "email": "liamanderson2023@gmail.com",
+    "rol": "freelance",
+    "profession": "Machine Learning Engineer"
+  },
+  {
+    "name": "Sophia",
+    "surname": "Martinez",
+    "image": "https://res.cloudinary.com/dhlr7fvd8/image/upload/v1688029759/Profilepictures/Captura19_zpwqvj.png",
+    "description": "Con experiencia en software innovador, soy una desarrolladora entusiasta especializada en el desarrollo de aplicaciones web y móviles. Utilizo tecnologías como JavaScript, Python y React Native para crear soluciones de calidad y satisfacción al usuario. Transformo ideas en realidades funcionales y atractivas, enfrentando desafíos con creatividad y habilidades técnicas. Lista para contribuir al éxito de proyectos nuevos con mi pasión por la programación.",
+    "city": "Barcelona",
+    "password": "Sophia2023!",
+    "email": "sophiamartinez2023@gmail.com",
+    "rol": "freelance",
+    "profession": "Back-end Developer"
+  },
+  {
+    "name": "Ane",
+    "surname": "Etxeberria",
+    "image": "https://res.cloudinary.com/dhlr7fvd8/image/upload/v1688029758/Profilepictures/Captura13_w1ts9j.png",
+    "description": "Soy una desarrolladora responsable con experiencia en software innovador. Me especializo en el desarrollo de aplicaciones web y móviles utilizando tecnologías como JavaScript, Python y React Native. Mi enfoque se centra en ofrecer soluciones de calidad y satisfacción al usuario, convirtiendo ideas en realidades funcionales y atractivas. Estoy lista para enfrentar nuevos desafíos y contribuir al éxito de los proyectos con mi pasión por la programación y mi dedicación al detalle.",
+    "city": "Bilbao",
+    "password": "Ane2023!",
+    "email": "aneetxeberria2023@gmail.com",
+    "rol": "freelance",
+    "profession": "Front-end Developer"
+  },
+  {
+    "name": "Emily",
+    "surname": "Smith",
+    "image": "https://res.cloudinary.com/dhlr7fvd8/image/upload/v1688029758/Profilepictures/Captura8_vomtuo.png",
+    "description": "Soy una desarrolladora web y móvil apasionada y creativa. Me especializo en el desarrollo de aplicaciones con JavaScript y React Native, brindando soluciones innovadoras y funcionales. Mi enfoque se centra en la usabilidad y la experiencia del usuario. Siempre lista para enfrentar nuevos desafíos y llevar ideas a la realidad con calidad y estilo.",
+    "city": "Londres",
+    "password": "Emily2023!",
+    "email": "emilysmith2023@gmail.com",
+    "rol": "freelance",
+    "profession": "Mobile App Developer"
+  },
+  {
+    "name": "Ethan",
+    "surname": "Anderson",
+    "image": "https://res.cloudinary.com/dhlr7fvd8/image/upload/v1688029758/Profilepictures/Captura16_tj1pyn.png",
+    "description": "Con más de cinco años de experiencia en el desarrollo de software, soy un apasionado desarrollador especializado en aplicaciones web y móviles. Con habilidades en JavaScript, Python y React Native, me dedico a ofrecer soluciones eficientes y atractivas. Estoy siempre dispuesto a afrontar nuevos desafíos y aportar valor a proyectos exitosos.",
+    "city": "Nueva York",
+    "password": "Ethan2023!",
+    "email": "ethananderson@gmail.com",
+    "rol": "freelance",
+    "profession": "Quality Assurance (QA) Engineer"
+  },
+  {
+    "name": "Maximilian",
+    "surname": "Schmidt",
+    "image": "https://res.cloudinary.com/dhlr7fvd8/image/upload/v1688029758/Profilepictures/Captura10_nzgto1.png",
+    "description": "Como desarrollador experimentado con más de cinco años en el campo, me especializo en aplicaciones web y móviles. Con habilidades en JavaScript, Python y React Native, disfruto creando soluciones innovadoras y funcionales. Siempre estoy listo para enfrentar nuevos desafíos y contribuir al éxito de los proyectos con profesionalismo y dedicación.",
+    "city": "Berlín",
+    "password": "Maximilian2023!",
+    "email": "maximilianschmidt2023@gmail.com",
+    "rol": "freelance",
+    "profession": "DevOps Engineer"
+  },
+  {
+    "name": "Martin",
+    "surname": "Novák",
+    "image": "https://res.cloudinary.com/dhlr7fvd8/image/upload/v1688029758/Profilepictures/Captura7_ixprlo.png",
+    "description": "Soy un desarrollador entusiasta con más de cinco años de experiencia en el desarrollo de aplicaciones web y móviles. Me especializo en tecnologías como JavaScript, Python y React Native. Mi enfoque se centra en crear soluciones de calidad y rendimiento para brindar una experiencia excepcional al usuario. Siempre estoy preparado para nuevos desafíos y contribuir al éxito de los proyectos.",
+    "city": "Bratislava",
+    "password": "Martin2023!",
+    "email": "martinnovak@gmail.com",
+    "rol": "freelance",
+    "profession": "Database Administrator"
+  },
+  {
+    "name": "Martin",
+    "surname": "Schneider",
+    "image": "https://res.cloudinary.com/dhlr7fvd8/image/upload/v1688029757/Profilepictures/Captura_fywz2f.png",
+    "description": "Como desarrollador comprometido, cuento con más de cinco años de experiencia en el desarrollo de aplicaciones web y móviles. Especializado en tecnologías como JavaScript, Python y React Native, me enfoco en crear soluciones de calidad y rendimiento para brindar una experiencia excepcional al usuario. Siempre estoy preparado para enfrentar nuevos desafíos y contribuir al éxito de los proyectos con entusiasmo y dedicación.",
+    "city": "Berlín",
+    "password": "Martin2023!",
+    "email": "martinschneider@gmail.com",
+    "rol": "freelance",
+    "profession": "Software Architect"
+  },
+  {
+    "name": "Isabella",
+    "surname": "García",
+    "image": "https://res.cloudinary.com/dhlr7fvd8/image/upload/v1688029758/Profilepictures/Captura9_k810ue.png",
+    "description": "Soy una desarrolladora apasionada con experiencia en el desarrollo de aplicaciones web y móviles. Especializada en tecnologías como JavaScript, Python y React Native, me enfoco en crear soluciones innovadoras y funcionales. Siempre lista para enfrentar nuevos desafíos y contribuir al éxito de los proyectos con mi creatividad y dedicación.",
+    "city": "Madrid",
+    "password": "Isabella2023!",
+    "email": "isabellagarcia@gmail.com",
+    "rol": "freelance",
+    "profession": "Software Engineer"
+  },
+  {
+    "name": "Carmen",
+    "surname": "Sánchez",
+    "image": "https://res.cloudinary.com/dhlr7fvd8/image/upload/v1688029758/Profilepictures/Captura4_r2babm.png",
+    "description": "Con una pasión por el desarrollo de software, me especializo en aplicaciones web y móviles. Utilizando tecnologías como JavaScript, Python y React Native, busco crear soluciones de calidad que cumplan con las necesidades del usuario. Siempre dispuesta a enfrentar desafíos y agregar valor a los proyectos con mi experiencia y creatividad.",
+    "city": "Barcelona",
+    "password": "Carmen2023!",
+    "email": "carmensanchez@gmail.com",
+    "rol": "freelance",
+    "profession": "Data Engineer"
+  },
+
+  {
+    "name": "Laura",
+    "surname": "Fernández",
+    "image": "https://res.cloudinary.com/dhlr7fvd8/image/upload/v1688029758/Profilepictures/Captura5_tkk9wf.png",
+    "description": "Soy una desarrolladora web y móvil con experiencia en el desarrollo de aplicaciones innovadoras. Me especializo en tecnologías como JavaScript, Python y React Native. Mi enfoque se centra en brindar soluciones funcionales y atractivas para los usuarios. Siempre lista para enfrentar nuevos desafíos y contribuir al éxito de los proyectos con pasión y dedicación.",
+    "city": "Sevilla",
+    "password": "Laura2023!",
+    "email": "laurafernandez@gmail.com",
+    "rol": "freelance",
+    "profession": "Web Developer"
+  },
+
+  {
+    "name": "Carlos",
+    "surname": "Hernández",
+    "image": "https://res.cloudinary.com/dhlr7fvd8/image/upload/v1688029757/Profilepictures/Captura6_nuwplv.png",
+    "description": "Soy un desarrollador de software con una amplia experiencia en el diseño y desarrollo de aplicaciones web y móviles. Me apasiona la creación de soluciones tecnológicas que mejoren la vida de las personas. Con habilidades en JavaScript, Python y React Native, me dedico a convertir ideas en realidades funcionales y atractivas. Estoy preparado para afrontar nuevos desafíos y contribuir al éxito de los proyectos con profesionalismo y pasión.",
+    "city": "Madrid",
+    "password": "Carlos2023!",
+    "email": "carloshernandez@gmail.com",
+    "rol": "freelance",
+    "profession": "Software Developer"
+  },
+
+  {
+    "name": "Javier",
+    "surname": "Soto",
+    "image": "https://res.cloudinary.com/dhlr7fvd8/image/upload/v1688029756/Profilepictures/Captura28_nme3tg.png",
+    "description": "Como desarrollador de software, me apasiona crear soluciones tecnológicas innovadoras. Con experiencia en el desarrollo de aplicaciones web y móviles utilizando JavaScript, Python y React Native, me enfoco en proporcionar soluciones de calidad y satisfacción al usuario. Siempre buscando nuevos desafíos para superar y contribuir al éxito de los proyectos con mi conocimiento técnico y creatividad.",
+    "city": "Barcelona",
+    "password": "Javier2023!",
+    "email": "javiersoto@gmail.com",
+    "rol": "freelance",
+    "profession": "Solution Architect"
+  },
+  {
+    "name": "Hugo",
+    "surname": "Ruíz",
+    "image": "https://res.cloudinary.com/dhlr7fvd8/image/upload/v1688029756/Profilepictures/Captura29_v8igfl.png",
+    "description": "Apasionado por la tecnología y la creación de soluciones innovadoras, tengo experiencia en el desarrollo de aplicaciones web y móviles. Utilizando lenguajes como JavaScript y Python, así como frameworks como React Native, busco superar desafíos y brindar experiencias atractivas y funcionales para los usuarios. Listo para contribuir al éxito de tus proyectos.",
+    "city": "Valencia",
+    "password": "Hugo2023!",
+    "email": "hugoruiz@gmail.com",
+    "rol": "freelance",
+    "profession": "Mobile App Developer"
+  },
+  {
+    "name": "Diego",
+    "surname": "Herrera",
+    "image": "https://res.cloudinary.com/dhlr7fvd8/image/upload/v1688029756/Profilepictures/Captura30_huwbmh.png",
+    "description": "Con experiencia en desarrollo de software y especialización en aplicaciones web y móviles, tengo un enfoque centrado en la creación de soluciones innovadoras y funcionales. Utilizando tecnologías como JavaScript, Python y React Native, busco desarrollar productos de alta calidad que satisfagan las necesidades de los usuarios. Preparado para enfrentar nuevos desafíos y contribuir al éxito de tus proyectos.",
+    "city": "Barcelona",
+    "password": "Diego2023!",
+    "email": "diegoherrera@gmail.com",
+    "rol": "freelance",
+    "profession": "Front-end Developer"
+  },
+
+  {
+    "name": "Alejandro",
+    "surname": "Vargas",
+    "image": "https://res.cloudinary.com/dhlr7fvd8/image/upload/v1688031354/Profilepictures/Captura34_cyjwsh.png",
+    "description": "Con habilidades en desarrollo web y móvil, me especializo en la creación de aplicaciones funcionales y atractivas. Utilizando tecnologías como JavaScript, Python y React Native, busco brindar soluciones de calidad que satisfagan las expectativas de los usuarios. Estoy siempre dispuesto a afrontar nuevos desafíos y aportar ideas frescas y creativas a los proyectos que emprendo.",
+    "city": "Madrid",
+    "password": "Alejandro2023!",
+    "email": "alejandrovargas@gmail.com",
+    "rol": "freelance",
+    "profession": "Network Administrator"
+  },
+
+  {
+    "name": "Gonzalo",
+    "surname": "López",
+    "image": "https://res.cloudinary.com/dhlr7fvd8/image/upload/v1688031542/Profilepictures/Captura35_jj87fc.png",
+    "description": "Con experiencia en desarrollo web y móvil, me enfoco en crear soluciones tecnológicas de vanguardia. Utilizando lenguajes como JavaScript y Python, junto con frameworks como React Native, busco brindar experiencias intuitivas y atractivas a los usuarios. Estoy constantemente aprendiendo y enfrentando nuevos desafíos para ofrecer resultados de calidad en cada proyecto.",
+    "city": "Valencia",
+    "password": "Gonzalo2023!",
+    "email": "gonzalolopez@gmail.com",
+    "rol": "freelance",
+    "profession": "Cybersecurity Analyst"
+  },
+
+  {
+    "name": "Jorge",
+    "surname": "Martínez",
+    "image": "https://res.cloudinary.com/dhlr7fvd8/image/upload/v1688031755/Profilepictures/Captura37_khluc5.png",
+    "description": "Con habilidades en el desarrollo de aplicaciones web y móviles, me dedico a crear productos de calidad y alto rendimiento. Utilizando tecnologías como JavaScript, Python y React Native, busco combinar la funcionalidad con un diseño atractivo y una experiencia de usuario excepcional. Estoy siempre en busca de nuevos desafíos para superar y contribuir al éxito de los proyectos.",
+    "city": "Barcelona",
+    "password": "Jorge2023!",
+    "email": "jorgemartinez@gmail.com",
+    "rol": "freelance",
+    "profession": "Network Administrator"
+  },
+  {
+    "name": "Daniel",
+    "surname": "Gómez",
+    "image": "https://res.cloudinary.com/dhlr7fvd8/image/upload/v1688031899/Profilepictures/Captura38_xna3tc.png",
+    "description": "Con amplia experiencia en desarrollo de software, me especializo en aplicaciones web y móviles. Utilizando tecnologías como JavaScript, Python y React Native, busco crear soluciones innovadoras y funcionales. Mi enfoque se centra en brindar una experiencia de usuario excepcional, combinando un diseño atractivo con un rendimiento óptimo. Estoy listo para enfrentar nuevos retos y aportar valor a tus proyectos.",
+    "city": "Madrid",
+    "password": "Daniel2023!",
+    "email": "danielgomez@gmail.com",
+    "rol": "freelance",
+    "profession": "Cybersecurity Analyst"
+  },
+
+  {
+    "name": "Sergio",
+    "surname": "Brahms",
+    "image": "https://res.cloudinary.com/dhlr7fvd8/image/upload/v1688032025/Profilepictures/Captura39_uoyziu.png",
+    "description": "Con habilidades en el desarrollo de aplicaciones web y móviles, mi objetivo es ofrecer soluciones de alta calidad y rendimiento. Utilizando tecnologías como JavaScript, Python y React Native, me dedico a crear productos funcionales y atractivos para los usuarios. Estoy siempre en busca de nuevas oportunidades para crecer profesionalmente y contribuir al éxito de los proyectos en los que participo.",
+    "city": "Barcelona",
+    "password": "Sergio2023!",
+    "email": "sergioramos@gmail.com",
+    "rol": "freelance",
+    "profession": "Quality Assurance (QA) Engineer"
+  },
+  {
+    "name": "Leonardo",
+    "surname": "Contarini",
+    "image": "https://res.cloudinary.com/dhlr7fvd8/image/upload/v1688032303/Profilepictures/Captura40_xwmt5t.png",
+    "description": "Soy un desarrollador que encuentra inspiración en la belleza y el esplendor de la Venecia renacentista. Con experiencia en el desarrollo de aplicaciones web y móviles, busco fusionar la elegancia clásica con la innovación tecnológica. Mi objetivo es crear soluciones que reflejen la sofisticación y el encanto de una era pasada, brindando a los usuarios una experiencia memorable.",
+    "city": "Venecia",
+    "password": "Leonardo2023!",
+    "email": "leonardocontarini@gmail.com",
+    "rol": "freelance",
+    "profession": "Full Stack Developer"
+  },
+  {
+    "name": "Sofía",
+    "surname": "Hernández",
+    "image": "https://res.cloudinary.com/dhlr7fvd8/image/upload/v1688029756/Profilepictures/Captura32_grcwjp.png",
+    "description": "Con una pasión por la tecnología y el desarrollo de software, me especializo en aplicaciones web y móviles. Utilizando tecnologías como JavaScript, Python y React Native, busco crear soluciones innovadoras y funcionales. Mi objetivo es proporcionar una experiencia de usuario excepcional, convirtiendo ideas en productos de calidad que satisfagan las necesidades del mercado.",
+    "city": "Madrid",
+    "password": "Sofía2023!",
+    "email": "sofiahernandez@gmail.com",
+    "rol": "freelance",
+    "profession": "Mobile App Developer"
+  },
+
+  {
+    "name": "Alejandro",
+    "surname": "González",
+    "image": "https://res.cloudinary.com/dhlr7fvd8/image/upload/v1688033094/Profilepictures/Captura41_uy5x5m.png",
+    "description": "Soy un desarrollador apasionado por la creación de software. Especializado en el desarrollo de aplicaciones web y móviles, utilizo tecnologías como JavaScript, Python y React Native para crear soluciones de calidad. Mi enfoque se centra en brindar una experiencia excepcional al usuario, combinando funcionalidad y diseño atractivo. Estoy listo para enfrentar nuevos desafíos y aportar valor a los proyectos en los que participo.",
+    "city": "Barcelona",
+    "password": "Alejandro2023!",
+    "email": "alejandrogonzalez@gmail.com",
+    "rol": "freelance",
+    "profession": "Product Manager"
+  },
+  {
+    "name": "María",
+    "surname": "López",
+    "image": "https://res.cloudinary.com/dhlr7fvd8/image/upload/v1688029756/Profilepictures/Captura27_dwc97h.png",
+    "description": "Soy una diseñadora creativa y apasionada por el diseño de interfaces de usuario. Con habilidades en Adobe Photoshop y Sketch, creo diseños modernos y atractivos que mejoran la experiencia del usuario. Me encanta trabajar en equipo y colaborar estrechamente con los desarrolladores para convertir ideas en productos finales. Siempre estoy buscando nuevas oportunidades para aprender y crecer en el campo del diseño de UX/UI.",
+    "city": "Madrid",
+    "password": "MariaLopez2023!",
+    "email": "marialopez@gmail.com",
+    "rol": "freelance",
+    "profession": "Full Stack Developer"
+  },
+  {
+    "name": "Carlos",
+    "surname": "Martínez",
+    "image": "https://res.cloudinary.com/dhlr7fvd8/image/upload/v1688033248/Profilepictures/Captura43_b8000c.png",
+    "description": "Soy un ingeniero de software con experiencia en el desarrollo de aplicaciones empresariales. Mi enfoque principal es la creación de soluciones escalables y seguras utilizando tecnologías como Java, Spring y MySQL. Me apasiona trabajar en proyectos desafiantes que requieran un alto nivel de calidad y rendimiento. Estoy constantemente aprendiendo y adoptando nuevas tecnologías para mantenerme actualizado en el campo del desarrollo de software.",
+    "city": "Valencia",
+    "password": "CarlosMartinez2023!",
+    "email": "carlosmartinez@gmail.com",
+    "rol": "freelance",
+    "profession": "Software Engineer"
+  },
+  {
+    "name": "Laura",
+    "surname": "Rodríguez",
+    "image": "https://res.cloudinary.com/dhlr7fvd8/image/upload/v1688029756/Profilepictures/Captura1_e86wqf.png",
+    "description": "Soy una diseñadora gráfica apasionada por el diseño visual y la comunicación efectiva. Utilizo mi creatividad y habilidades en Adobe Illustrator y InDesign para crear diseños únicos que transmiten mensajes claros y atractivos. Me encanta colaborar en proyectos emocionantes y trabajar en equipo para lograr resultados sorprendentes.",
+    "city": "Barcelona",
+    "password": "LauraRodriguez2023!",
+    "email": "laurarodriguez@gmail.com",
+    "rol": "freelance",
+    "profession": "Graphic Designer"
+  },
+  {
+    "name": "Daniel",
+    "surname": "Sánchez",
+    "image": "https://res.cloudinary.com/dhlr7fvd8/image/upload/v1688033361/Profilepictures/Captura44_mwgjjr.png",
+    "description": "Soy un desarrollador web creando sitios web modernos y funcionales. Utilizo HTML, CSS y JavaScript para construir interfaces atractivas y optimizadas para una experiencia de usuario fluida. Me gusta mantenerme actualizado sobre las últimas tendencias en desarrollo web y aplicarlas en mis proyectos para brindar soluciones innovadoras.",
+    "city": "Madrid",
+    "password": "DanielSanchez2023!",
+    "email": "danielsanchez@gmail.com",
+    "rol": "freelance",
+    "profession": "Web Developer"
+  },
+  {
+    "name": "Sofía",
+    "surname": "Hernández",
+    "image": "https://res.cloudinary.com/dhlr7fvd8/image/upload/v1688029757/Profilepictures/Captura31_vdxmnx.png",
+    "description": "Soy una especialista en marketing digital con experiencia en estrategias de redes sociales y SEO. Me apasiona ayudar a las empresas a aumentar su visibilidad en línea y atraer a su público objetivo. Utilizo herramientas analíticas y creativas para desarrollar campañas efectivas que generen resultados medibles y duraderos.",
+    "city": "Valencia",
+    "password": "SofiaHernandez2023!",
+    "email": "sofiahernandez@gmail.com",
+    "rol": "freelance",
+    "profession": "Digital Marketer"
+  },
+  {
+    "name": "Pedro",
+    "surname": "García",
+    "image": "https://res.cloudinary.com/dhlr7fvd8/image/upload/v1688033503/Profilepictures/Captura45_ocox3z.png",
+    "description": "Soy un desarrollador de aplicaciones móviles apasionado por la creación de experiencias interactivas y atractivas. Utilizo tecnologías como React Native y Flutter para desarrollar aplicaciones nativas para iOS y Android. Me enfoco en optimizar el rendimiento y la usabilidad de mis aplicaciones para brindar la mejor experiencia posible a los usuarios.",
+    "city": "Barcelona",
+    "password": "PedroGarcia2023!",
+    "email": "pedrogarcia@gmail.com",
+    "rol": "freelance",
+    "profession": "Mobile App Developer"
+  },
+  {
+    "nombre": "Sofía",
+    "apellido": "Müller",
+    "image": "https://res.cloudinary.com/dhlr7fvd8/image/upload/v1688029757/Profilepictures/Captura2_bhcts5.png",
+    "descripcion": "Soy una apasionada ingeniera de software con experiencia en la construcción de aplicaciones web escalables y robustas. Tengo un amplio dominio de lenguajes de programación como Java, JavaScript y Python, y disfruto utilizando frameworks y herramientas modernas para ofrecer soluciones de alta calidad. Mi objetivo es contribuir a proyectos innovadores que tengan un impacto positivo en la vida de las personas.",
+    "ciudad": "Berlín",
+    "contraseña": "SofíaMüller2023!",
+    "email": "sofiamuller@gmail.com",
+    "rol": "freelance",
+    "profesion": "Software Engineer"
+  },
+  {
+    "nombre": "Maximiliano",
+    "apellido": "Kovac",
+    "image": "https://res.cloudinary.com/dhlr7fvd8/image/upload/v1688033611/Profilepictures/Captura46_qstbzi.png",
+    "descripcion": "Soy un talentoso diseñador gráfico con un ojo agudo para los detalles y una pasión por contar historias visuales. Utilizando herramientas como Adobe Photoshop e Illustrator, creo diseños atractivos que comunican mensajes de manera efectiva y evocan emociones. Ya sea diseñando logotipos, ilustraciones o materiales de marca, me esfuerzo por ofrecer imágenes cautivadoras que dejen una impresión duradera.",
+    "ciudad": "Viena",
+    "contraseña": "MaximilianoKovac2023!",
+    "email": "maximilianokovac@gmail.com",
+    "rol": "freelance",
+    "profesion": "Graphic Designer"
+  },
+  {
+    "nombre": "Isabella",
+    "apellido": "Ricci",
+    "image": "https://res.cloudinary.com/dhlr7fvd8/image/upload/v1688033741/Profilepictures/Captura47_quqyis.png",
+    "descripcion": "Soy una estratega de marketing con experiencia, enfocada en campañas digitales y participación del cliente. Aprovechando información basada en datos e impulsada por la creatividad, desarrollo estrategias de marketing efectivas que ayudan a las empresas a alcanzar a su público objetivo y lograr sus objetivos. Me apasiona estar al tanto de las últimas tendencias de la industria y las tecnologías emergentes para obtener resultados impactantes.",
+    "ciudad": "Roma",
+    "contraseña": "IsabellaRicci2023!",
+    "email": "isabellaricci@gmail.com",
+    "rol": "freelance",
+    "profesion": "Marketing Strategist"
+  },
+  {
+    "nombre": "Lucas",
+    "apellido": "Andersen",
+    "image": "https://res.cloudinary.com/dhlr7fvd8/image/upload/v1688033897/Profilepictures/Captura49_aiuqeu.png",
+    "descripcion": "Soy un desarrollador web creativo y apasionado con experiencia en la creación de sitios web dinámicos y funcionales. Utilizo tecnologías como HTML, CSS, JavaScript y frameworks como React y Angular para desarrollar aplicaciones web modernas y atractivas. Mi objetivo es crear experiencias de usuario excepcionales y soluciones innovadoras que impulsen el crecimiento de los negocios en línea.",
+    "ciudad": "Copenhague",
+    "contraseña": "LucasAndersen2023!",
+    "email": "lucasandersen@gmail.com",
+    "rol": "freelance",
+    "profesion": "Desarrollador Full Stack"
+  },
+  {
+    "nombre": "Elena",
+    "apellido": "Vasiliev",
+    "image": "https://res.cloudinary.com/dhlr7fvd8/image/upload/v1688034085/Profilepictures/Captura51_ngqfoq.png",
+    "descripcion": "Como diseñador de UX/UI, mi enfoque innovador se centra en la creación de experiencias digitales intuitivas y cautivadoras. Me esfuerzo por entender las necesidades y deseos de los usuarios para diseñar interfaces impactantes que combinen funcionalidad y estética. Mi objetivo es sorprender y deleitar a los usuarios, brindándoles interacciones fluidas y visualmente atractivas que les permitan disfrutar de una experiencia digital única.",
+    "ciudad": "Moscú",
+    "contraseña": "ElenaVasiliev2023!",
+    "email": "elenavasiliev@gmail.com",
+    "rol": "freelance",
+    "profesion": "Software Developer"
+  },
+  {
+    "nombre": "Matteo",
+    "apellido": "Bianchi",
+    "image": "https://res.cloudinary.com/dhlr7fvd8/image/upload/v1688033898/Profilepictures/Captura48_t1jmv2.png",
+    "descripcion": "Como Full Stack Developer, mi enfoque innovador radica en la creación de aplicaciones web completas y eficientes. Utilizando las últimas tecnologías y frameworks, desarrollo soluciones escalables y robustas que abarcan tanto el frontend como el backend. Mi pasión por la resolución de problemas y la optimización del rendimiento me impulsa a ofrecer experiencias digitales de alta calidad que satisfacen las necesidades de los usuarios y superan sus expectativas.",
+    "ciudad": "Milán",
+    "contraseña": "MatteoBianchi2023!",
+    "email": "matteobianchi@gmail.com",
+    "rol": "freelance",
+    "profesion": "Desarrollador Full Stack"
+  },
+  {
+    "nombre": "Sergio",
+    "apellido": "García",
+    "image": "https://res.cloudinary.com/dhlr7fvd8/image/upload/v1688033898/Profilepictures/Captura50_d6mqyy.png",
+    "descripcion": "Soy un ingeniero de software apasionado por la creación de soluciones innovadoras. Tengo experiencia en el desarrollo de aplicaciones escalables y de alta calidad utilizando diversas tecnologías. Mi objetivo principal es utilizar mi experiencia técnica y habilidades de resolución de problemas para desarrollar software eficiente y robusto que satisfaga las necesidades de los usuarios.",
+    "ciudad": "Madrid",
+    "contraseña": "SergioGarcía2023!",
+    "email": "sergiogarcia@gmail.com",
+    "rol": "freelance",
+    "profesion": "Ingeniero de Software"
+  },
+  {
+    "nombre": "María",
+    "apellido": "López",
+    "image": "https://res.cloudinary.com/dhlr7fvd8/image/upload/v1688034155/Profilepictures/Captura52_umq51l.png",
+    "descripcion": "Soy un desarrollador de aplicaciones móviles creativo y visionario, dedicado a la creación de experiencias móviles excepcionales. Con habilidades en iOS y Android, utilizo frameworks como Swift y Kotlin para construir aplicaciones innovadoras y de alto rendimiento. Mi enfoque se centra en la usabilidad, la interfaz de usuario intuitiva y el aprovechamiento de las últimas tecnologías para ofrecer soluciones móviles que cautiven a los usuarios y mejoren su vida cotidiana.",
+    "contraseña": "MaríaLópez2023!",
+    "email": "marialopez@gmail.com",
+    "rol": "freelance",
+    "profesion": "Mobile App Developer"
+  },
+  {
+    "nombre": "Alejandro",
+    "apellido": "Rodríguez",
+    "image": "https://res.cloudinary.com/dhlr7fvd8/image/upload/v1688034219/Profilepictures/Captura53_gwxy92.png",
+    "descripcion": "Soy un desarrollador de back-end audaz y apasionado por la construcción de sistemas robustos y escalables. Utilizo mi experiencia en lenguajes como Python, Java y PHP para crear arquitecturas eficientes y seguras. Mi enfoque se centra en el procesamiento de datos, la optimización de consultas y la implementación de API robustas que impulsen el funcionamiento impecable de las aplicaciones y servicios en el mundo digital.",
+    "ciudad": "Valencia",
+    "contraseña": "AlejandroRodríguez2023!",
+    "email": "alejandrorodriguez@gmail.com",
+    "rol": "freelance",
+    "profesion": "Back-end Developer"
+  },
+  {
+    "name": "Juan",
+    "surname": "García Hernandez",
+    "image": "https://res.cloudinary.com/dhlr7fvd8/image/upload/v1688034265/Profilepictures/Captura54_bke313.png",
+    "description": "Soy un desarrollador apasionado con experiencia en software innovador. Especializado en aplicaciones web y móviles con JavaScript, Python y React Native. Enfocado en la calidad y la satisfacción del usuario, convierto ideas en realidades atractivas y funcionales. ¡Listo para colaborar en proyectos desafiantes y llevarlos al siguiente nivel!",
+    "city": "Murcia",
+    "password": "Juan2023.",
+    "email": "juan2023@gmail.com",
+    "rol": "freelance",
+    "profession": "Software Engineer"
+  },
+  {
+    "name": "Jose Luis",
+    "surname": "García Gonzalez",
+    "image": "https://res.cloudinary.com/dhlr7fvd8/image/upload/v1688034366/Profilepictures/Captura55_wwl1gz.png",
+    "description": "Soy un desarrollador creativo y comprometido, con experiencia en software innovador. Mi especialidad son las aplicaciones web y móviles, utilizando JavaScript, Python y React Native. Con enfoque en la calidad y satisfacción del usuario, transformo ideas en soluciones prácticas y atractivas. Listo para asumir nuevos desafíos.",
+    "city": "Barcelona",
+    "password": "Jose2023.",
+    "email": "josegarcia2023@gmail.com",
+    "rol": "freelance",
+    "profession": "Software Developer"
+  },
+  {
+    "name": "Ana",
+    "surname": "Martín",
+    "image": "https://res.cloudinary.com/dhlr7fvd8/image/upload/v1688034442/Profilepictures/Captura57_tcemdi.png",
+    "description": "Soy una desarrolladora con experiencia en software innovador. Especializada en aplicaciones web y móviles utilizando JavaScript, Node y React Native. Mi enfoque se centra en ofrecer calidad y satisfacción al usuario, convirtiendo ideas en soluciones atractivas y funcionales. ¡Lista para colaborar en proyectos desafiantes y llevarlos al siguiente nivel!",
+    "city": "Barcelona",
+    "password": "Ana2023.",
+    "email": "anamartin2023@gmail.com",
+    "rol": "freelance",
+    "profession": "Web Developer"
+  },
+  {
+    "name": "Sofía",
+    "surname": "Fernández López",
+    "image": "https://res.cloudinary.com/dhlr7fvd8/image/upload/v1688034552/Profilepictures/Captura58_bfnsug.png",
+    "description": "Soy una entusiasta desarrolladora con experiencia en diversos proyectos de software. Mi especialidad radica en aplicaciones móviles y desarrollo web, utilizando tecnologías como Java, Swift y HTML5. Enfocada en ofrecer soluciones intuitivas y de calidad, estoy lista para enfrentar nuevos desafíos y contribuir al éxito de los proyectos.",
+    "city": "Sevilla",
+    "password": "Sofia9876!",
+    "email": "sofiagonzalez2023@gmail.com",
+    "rol": "freelance",
+    "profession": "Mobile App Developer"
+  },
+  {
+    "name": "Xiomara",
+    "surname": "Velasco Quijano",
+    "image": "https://res.cloudinary.com/dhlr7fvd8/image/upload/v1688034662/Profilepictures/Captura59_feoaic.png",
+    "description": "Xiomara Velasco Quijano, desarrolladora apasionada con experiencia en software innovador. Especializada en aplicaciones web y móviles con JavaScript, Python y React Native. Enfocada en soluciones prácticas y atractivas, lista para enfrentar desafíos y llevar proyectos al siguiente nivel. ¡Confía tus proyectos para tus necesidades de desarrollo de software!",
+    "city": "Valencia",
+    "password": "Xiomara2023.",
+    "email": "xiomarav23@gmail.com",
+    "rol": "freelance",
+    "profession": "Desarrolladora de Software"
+  },
+
+  {
+    "name": "Ezequiel",
+    "surname": "López Jiménez",
+    "image": "https://res.cloudinary.com/dhlr7fvd8/image/upload/v1688034365/Profilepictures/Captura56_jhzict.png",
+    "description": "Ezequiel López Jiménez, apasionado desarrollador de software con experiencia en proyectos innovadores. Especializado en el desarrollo de aplicaciones web y móviles utilizando tecnologías como JavaScript, PHP y Flutter. Comprometido con la calidad y la excelencia, transformo ideas en soluciones funcionales y atractivas. Listo para superar nuevos desafíos y aportar valor a tus proyectos.",
+    "city": "Madrid",
+    "password": "Ezequiel2023!",
+    "email": "ezequielopez23@gmail.com",
+    "rol": "freelance",
+    "profession": "Full Stack Developer"
+  },
+  {
+    "name": "Mariana",
+    "surname": "Vargas Méndez",
+    "image": "https://res.cloudinary.com/dhlr7fvd8/image/upload/v1688043825/Profilepictures/Captura60_ez1ytj.png",
+    "description": "Mariana, especializada en aplicaciones web y móviles, utilizando tecnologías como JavaScript, TypeScript y Angular. Enfocada en brindar soluciones de calidad y experiencias atractivas para los usuarios. Dispuesta a asumir desafíos emocionantes y contribuir al éxito de los proyectos.",
+    "city": "Guadalajara",
+    "password": "Mariana2023!",
+    "email": "marianavargas23@gmail.com",
+    "rol": "freelance",
+    "profession": "Front-end Developer"
+  },
+  {
+    "name": "Luna",
+    "surname": "Martínez Sánchez",
+    "image": "https://res.cloudinary.com/dhlr7fvd8/image/upload/v1688044253/Profilepictures/Captura62_wohftb.png",
+    "description": "Luna, hechicera de las aplicaciones web y móviles, dominando el arte de JavaScript, TypeScript y Angular, entre otras tecnologías. Conjurando soluciones mágicas y cautivadoras para deleitar a los usuarios. Dispuesta a embarcarse en emocionantes batallas y hechizar el éxito de los proyectos.",
+    "city": "Alicante",
+    "password": "Luna2023!",
+    "email": "lunamartinez23@gmail.com",
+    "rol": "freelance",
+    "profession": "Front-end Developer"
+  },
+  {
+    "name": "Zeus",
+    "surname": "Thunderstrike",
+    "image": "https://res.cloudinary.com/dhlr7fvd8/image/upload/v1688044151/Profilepictures/Captura61_kfe3gt.png",
+    "description": "Zeus, el dios supremo del desarrollo web y móvil, controlando los poderes de JavaScript, Python y React Native. Creando soluciones divinas y electrizantes para satisfacer a los usuarios. Listo para enfrentar desafíos cósmicos y llevar los proyectos a nuevas alturas.",
+    "city": "Olimpo",
+    "password": "Zeus2023!",
+    "email": "zeusthunderstrike23@gmail.com",
+    "rol": "freelance",
+    "profession": "God-like Developer"
+  }
+]

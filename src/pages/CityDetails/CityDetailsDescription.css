@@ -1,0 +1,25 @@
+.cityDetails-city-description h3 {
+  font-size: 23px;
+  font-weight: 900;
+  padding: 9px 0;
+}
+
+.cityDetails-city-description {
+  text-align: justify;
+  max-width: 1236px;
+  border: 0.7px solid #e3e4e5;
+  border-radius: 9px;
+  background-color: var(--header-bg-color);
+  padding: 1.7rem;
+}
+
+.cityDetails-city-description h5 {
+  font-size: 18px;
+  margin-top: 16px;
+}
+
+@media (max-width: 600px) {
+  .cityDetails-city-description {
+    height: 100%;
+  }
+}

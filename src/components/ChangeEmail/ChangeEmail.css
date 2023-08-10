@@ -1,0 +1,67 @@
+.changeEmail-text-new-email {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+}
+
+.changeEmail-text-new-email:hover {
+  font-weight: 650;
+}
+
+.changeEmail_container-new-email-general {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  gap: 18px;
+}
+
+.changeEmail_container-new-email {
+  width: 450px;
+  margin-top: 25px;
+  border: 1px solid #e3e4e5;
+  background-color: var(--header-bg-color);
+  border-radius: 12px;
+  padding: 20px;
+  font-size: 16px;
+}
+
+.changeEmail_container-new-email:hover {
+  cursor: pointer;
+  box-shadow: 1px 1px 5px 1px var(--btn-bg-color);
+}
+
+@media only screen and (max-width: 880px) {
+  .changeEmail-text-new-email {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    margin-top: 9px;
+  }
+
+  .changeEmail-text-new-email:hover {
+    font-weight: 650;
+  }
+
+  .changeEmail_container-new-email-general {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    gap: 18px;
+  }
+
+  .changeEmail_container-new-email {
+    width: 210px;
+    height: 45px;
+    border: 1px solid #e3e4e5;
+    border-radius: 12px;
+    padding: 0px;
+    margin-top: 30px;
+    font-size: 16px;
+  }
+}

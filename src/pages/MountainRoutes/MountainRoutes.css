@@ -1,0 +1,233 @@
+.offers-filters-and-offersList-container {
+  display: flex;
+  justify-content: center;
+}
+
+.outletContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 28px;
+  padding: 20px;
+}
+
+.mountainRouteTit {
+  font-size: 21px;
+  align-items: center;
+  font-family: var(--font-bold);
+  padding: 0 0 30px 0;
+}
+
+.mountainRoute-subTitle {
+  font-size: 11px;
+  align-items: center;
+  /* font-family: var(--font-bold); */
+  padding: 0 0 10px 0;
+}
+
+.offers-filters-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 10px;
+}
+
+.offers-filters-container > h2 {
+  font-size: 23px;
+  margin-top: 9px;
+  font-weight: 700;
+}
+
+.mountainRoute-button-create {
+  border: none;
+  border-radius: 30px;
+  height: 39px;
+  width: 145px;
+  background-color: var(--btn-bg-color);
+  color: white;
+}
+
+.mountainRoute-button-create:hover {
+  cursor: pointer;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.offers-offersList-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.offersList-offers-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.offersList-paginate-and-offers-list-container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.offersList-paginate {
+  display: flex;
+  gap: 18px;
+  margin: 12px 0 0 0;
+  padding: 0 0 0 0;
+}
+
+.offers-offersList-container {
+  align-items: center;
+  margin-top: 10px;
+}
+
+.cardOffer-Info {
+  margin-top: 10px;
+}
+
+.offers-filter-experienceYears-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 340px;
+  margin-left: 12px;
+}
+
+.offers-filter-annualSalary-container {
+  margin-left: 12px;
+}
+
+.offers-filter-offerType-jobType-offerState-container {
+  width: 340px;
+}
+
+.offers-filter-offerType-container,
+.offers-filter-jobType-container,
+.offers-filter-offerState-container {
+  padding: 0 0 5px 0;
+}
+
+.offers-filter-experienceYears-annualSalary-container {
+  width: 320px;
+}
+
+@media screen and (max-width: 494px) {
+  .offers-filters-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .offers-filters-container > h2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+  }
+
+  .offers-filter-offerType-jobType-offerState-container {
+    width: 300px;
+  }
+
+  .offers-filter-offerType-container,
+  .offers-filter-jobType-container,
+  .offers-filter-offerState-container {
+    padding: 0 0 5px 0;
+  }
+
+  .offers-filter-experienceYears-annualSalary-container {
+    width: 270px;
+  }
+
+  .offers-offersList-container {
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+  }
+
+  .offerTit {
+    font-size: 18px;
+    align-items: center;
+    font-family: var(--font-bold);
+    text-align: center;
+    padding: 0 0 0 0;
+  }
+
+  .offersList-paginate {
+    padding: 0 0 0 0;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .offersList-offers-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .cardOffer-Info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+  }
+
+  .cardOffer-link-to-offerDetails {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .cardOffer-Profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+    margin-top: 5px;
+  }
+
+  .cardOffer-Info-Description {
+    max-width: 350px;
+  }
+
+  .cardOffer-Info-tabla-name {
+    text-align: center;
+    width: 250px;
+  }
+
+  .cardOffer-Info-Ubicado,
+  .cardOffer-Info-AnnualSalary {
+    text-align: center;
+    width: 250px;
+  }
+
+  .cardOffer-Info-technologies {
+    text-align: center;
+    width: 200px;
+  }
+}
+
+@media screen and (max-width: 458px) {
+  .offers-filters-and-offersList-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 1270px) {
+  .offers-filters-and-offersList-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+}

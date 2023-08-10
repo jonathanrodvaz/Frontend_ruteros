@@ -1,0 +1,113 @@
+.choose_technologies-container-choose {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  margin: 12px;
+}
+
+.choose_technologies-container-choose:hover {
+  font-weight: 650;
+}
+
+.habilities-choose-habilities-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 3px;
+  border: 0px solid red;
+  overflow: auto;
+}
+
+.habilities-habilities-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 1rem 0;
+  background-color: var(--header-bg-color);
+  border: 0px solid blue;
+  /* overflow: auto; */
+}
+
+.habilities-hability-item {
+  width: 90px;
+  height: 110px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0.1px;
+  border: 1px solid var(--btn-bg-color);
+}
+
+.father-container-technologies {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  /* width: 60vw; */
+  /* background-color: aqua; */
+  gap: 0.5rem;
+}
+
+.tech-image {
+  width: 39px;
+  margin-top: 5px;
+}
+
+.tech-image-text {
+  font-size: 12px;
+  margin: 9px 0 0 0px;
+}
+
+.image-container {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 1%;
+  margin-top: 7px;
+  padding: 0.1px 0;
+  /* background-color: aqua; */
+}
+
+.btn_profile_general_tech {
+  margin-top: 30px;
+}
+
+@media screen and (max-width: 880px) {
+  .father-container-technologies {
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    margin-top: 2px;
+    overflow: auto;
+    height: 430px;
+    width: 270px;
+  }
+
+  .choose_technologies-container-choose {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 21px;
+    text-align: center;
+  }
+
+  .choose_technologies-container-choose:hover {
+    font-weight: 650;
+  }
+
+  .habilities-habilities-container {
+    gap: 9px;
+  }
+
+  .btn_profile_general_tech {
+    margin-top: 25px;
+    margin-bottom: 0;
+    height: 39px;
+  }
+}

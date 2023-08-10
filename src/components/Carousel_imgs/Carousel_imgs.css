@@ -1,0 +1,19 @@
+.carousel-imgs-container {
+  max-width: 80%;
+  margin: 0 auto;
+}
+
+.carousel-container {
+  border: 0px solid red;
+}
+
+.carousel-item-padding-40-px {
+  width: 100vw;
+  height: 55vh;
+  border: 0px solid blue;
+}
+
+.carousel-img-container {
+  object-fit: cover;
+  border: 0px solid blue;
+}

@@ -1,0 +1,115 @@
+h1 {
+  text-align: center;
+  margin: 2.5rem;
+}
+
+.developer-card-btn {
+  border: none;
+  background-color: transparent;
+}
+
+.developer-Info {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-between; */
+  width: 300px;
+  min-height: 420px;
+  max-height: 420px;
+  border: 1px solid #e3e4e5;
+  border-radius: 0.9rem;
+  padding: 0 0 0 0;
+  background-color: var(--header-bg-color);
+  color: black;
+  /* gap: 1rem; */
+  transition: transform 0.2s;
+}
+
+.developer-Info:hover {
+  transform: scale(1.01);
+  transition: transform 0.2s;
+  /* z-index: 10; */
+  transition: transform 0.2s;
+  z-index: 3;
+  cursor: pointer;
+}
+
+.developer-Info > img {
+  width: 100%;
+  max-height: 320px;
+  object-fit: cover;
+  border-radius: 0.7rem 0.7rem 0 0;
+}
+
+.developer-Info-img {
+  width: 100%;
+  min-height: 270px;
+  max-height: 270px;
+  object-fit: cover;
+  border-radius: 0.7rem 0.7rem 0 0;
+  transition: transform 0.2s;
+  z-index: 3;
+  cursor: pointer;
+}
+
+.developer-Info-tabla-name {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 0 0 0px;
+  margin-top: -50px;
+  margin-bottom: 20px;
+  font-weight: 900;
+  color: rgb(252, 250, 250);
+}
+
+.developer-Info-Toggle-Heart {
+  position: absolute;
+  z-index: 1;
+  cursor: pointer;
+  transform: scale(1);
+  /*Tamaño del corazon*/
+  margin: 15px;
+}
+
+.developer-Info-Ubicado {
+  font-size: 12px;
+  font-weight: 200;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.developer-Info-ratingsByOthers {
+  font-size: 12px;
+  padding: 0 0 0 10px;
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.developer-Info-grupo-technologies {
+  margin-top: -19px;
+
+  /* limit the number of characters to show just 22 */
+  /* white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 100ch; */
+}
+
+.developer-Info-Rol {
+  font-size: 18px;
+  padding: 0 0 0 16px;
+}
+
+.developer-Info-technologies {
+  font-size: 14px;
+  padding: 0 0 0 16px;
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

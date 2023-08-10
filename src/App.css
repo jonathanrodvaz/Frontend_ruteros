@@ -1,0 +1,69 @@
+@font-face {
+  font-family: 'Fuente-Principal';
+  /* El nombre que quieras darle a tu fuente */
+  src: url('/Fonts/Poppins/Poppins-Light.ttf') format('truetype');
+  /* Ruta de la fuente en relación a tu archivo CSS */
+}
+
+@font-face {
+  font-family: 'Fuente-Bold';
+  /* El nombre que quieras darle a tu fuente */
+  src: url('/Fonts/Poppins/Poppins-SemiBold.ttf') format('truetype');
+  /* Ruta de la fuente en relación a tu archivo CSS */
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: var(--primary-font);
+}
+
+body {
+  width: 100%;
+  min-height: 100vh;
+  background-color: #f9f4ef;
+  border-color: #fffffe;
+}
+
+#root {
+  --mainColor: #111b21;
+  --primary-font: 'Fuente-Principal', sans-serif;
+  --font-bold: 'Fuente-Bold', sans-serif;
+  --accent-color: #25d366;
+  /* --btn-bg-color: rgb(117, 128, 154); */
+  /* --btn-bg-color: rgb(125, 18, 158); */
+  --btn-bg-color: #6e2f5a;
+  --header-bg-color: #eaddcf;
+}
+
+main {
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.btn {
+  width: 100%;
+  background: var(--background-color-button-login);
+  color: #fff;
+  cursor: pointer;
+  border: #2f7a67 1px solid;
+  border-radius: 5px;
+  font-family: inherit;
+  font-size: inherit;
+}
+
+.outletContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 25px 0;
+}
+
+ul {
+  list-style: none;
+}

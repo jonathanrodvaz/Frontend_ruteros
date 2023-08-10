@@ -1,0 +1,268 @@
+.createMountainRoute-backgroundColor {
+  background-color: #eaddcf;
+}
+
+.createMountainRoute-h3-general {
+  margin-top: 2rem;
+  font-weight: 800;
+  font-size: bold;
+  letter-spacing: 1px;
+}
+
+.createMountainRoute-h3 {
+  color: #61d61d;
+}
+
+.crear-oferta-titulo {
+  margin: 0 0 25px 0;
+}
+
+.createMountainRoute-input-routeName {
+  height: 30px;
+  width: 350px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 12px;
+  padding: 20px;
+  font-size: 16px;
+  color: black;
+  text-align: center;
+  border: 2px solid #cecfd0;
+}
+
+.createMountainRoute-itemsToCarry-container {
+  margin-top: 5px;
+  overflow: auto;
+  height: 180px;
+  width: 350px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  /* background-color: #d5e0f4; */
+  gap: 0.5rem;
+  border: 2px solid #cecfd0;
+  border-radius: 5px;
+  padding: 1rem;
+}
+
+.form-container-titulo-tipo-oferta-tecnologias-Uploadfile2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  padding: 0 20px;
+  border-radius: 12px;
+  border: 0px solid #cecfd0;
+}
+
+.createMountainRoute-form-container-duration-distance-localization {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 0px solid red;
+}
+
+.form-container-titulo-tipo-oferta-tecnologias-Uploadfile {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 12px;
+}
+
+.input-select {
+  border-radius: 12px;
+}
+
+/* .form-container-titulo-descripción-responsabilidades-requisitos-remuneracion {
+  display: flex;
+  justify-content: center;
+  border: 1px solid #cecfd0;
+  gap: 12px;
+  margin-top: 25px;
+  padding: 0 0 12px 0;
+  border-radius: 12px;
+} */
+
+.form-container-descripcion-ganeral-responsabilidades {
+  width: 50%;
+}
+
+.form-container-descripcion-requisitos-remuneracion {
+  width: 50%;
+}
+
+.createOffer-container {
+  text-align: center;
+}
+
+.crear-oferta-titulo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: var(--font-bold);
+}
+
+.h3-oferta {
+  color: #61d61d;
+}
+
+#oferta-h3-general {
+  font-weight: 800;
+  font-size: bold;
+  letter-spacing: 1px;
+}
+
+.form-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-field {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.textarea {
+  text-align: center;
+}
+
+.createMountainRoute-form-label {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  gap: 25px;
+  margin-bottom: 0.5rem;
+  margin-top: 15px;
+}
+
+.createMountainRoute-descriptionGeneral {
+  height: 90px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 93%;
+  padding: 12px;
+  margin-top: 7px;
+  border: 2px solid #cecfd0;
+  /* border: 2px solid red; */
+  border-radius: 12px;
+  padding: 20px;
+  font-size: 16px;
+  color: black;
+  text-align: center;
+  margin: 0 auto;
+  outline: none;
+}
+
+.createMountainRoute-textarea-route-description {
+  width: 76vw;
+}
+
+.form-field-two {
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+
+#createMountainRoute-select {
+  margin-top: 20px;
+  width: 350px;
+  height: 44px;
+  text-align: center;
+  border: 2px solid #cecfd0;
+  color: #818181;
+}
+
+.textarea-description {
+  height: 150px;
+  width: 40vw;
+}
+
+.tecnologies-Offer {
+  margin-top: 5px;
+  overflow: auto;
+  height: 180px;
+  width: 300px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.createMountainRoute-input {
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 350px;
+  border: 2px solid #cecfd0;
+  border-radius: 12px;
+  padding: 20px;
+  font-size: 16px;
+  color: black;
+  text-align: center;
+}
+
+.input-create-offer-dos {
+  height: 90px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 93%;
+  padding: 12px;
+  margin-top: 7px;
+  border: 2px solid #cecfd0;
+  border-radius: 12px;
+  padding: 20px;
+  font-size: 16px;
+  color: black;
+  text-align: center;
+  margin: 0 auto;
+  outline: none;
+}
+
+.error-message {
+  color: red;
+}
+
+.btn-submit-create-offer_dos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  border-radius: 30px;
+  height: 40px;
+  width: 180px;
+  background-color: var(--btn-bg-color);
+  color: white;
+  margin-bottom: 1rem;
+  margin-top: 25px;
+}
+
+#btn-offer {
+  margin-top: 10px;
+}
+
+.form-field-four {
+  margin-top: 15px;
+}
+
+@media only screen and (max-width: 600px) {
+  .form-route-start-end-geolocalization-container {
+    margin-top: 2rem;
+    gap: 1.5rem;
+  }
+
+  .input-create-cityRoute-geolocalization {
+    width: 350px;
+  }
+
+  .createMountainRoute-textarea-route-description {
+    margin: 0 auto;
+    width: 95vw;
+  }
+}
